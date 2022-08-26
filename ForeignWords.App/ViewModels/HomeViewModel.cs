@@ -122,7 +122,6 @@ public class HomeViewModel : ViewModelBase
     public ICommand DidNotKnowCommand { get; }
     public ICommand AddNewWordCommand { get; }
     public ICommand ShowWordsCommand { get; }
-    public ICommand RefreshCommand { get; }
 
     public HomeViewModel(TranslationsBook book, NavigationService addNewWordNavigationService, NavigationService showWordsNavigationService)
     {
@@ -135,7 +134,6 @@ public class HomeViewModel : ViewModelBase
         DoNotKnowCommand = new IDoNotKnowCommand(this);
         DidNotKnowCommand = new IDidNotKnowCommand(this);
         TranslationCommand = new TranslationCommand(this);
-        RefreshCommand = new RefreshCommand(this, _book);
 
         AddNewWordCommand = new NavigateCommand(addNewWordNavigationService);
         ShowWordsCommand = new NavigateCommand(showWordsNavigationService);
