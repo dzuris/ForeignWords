@@ -25,43 +25,34 @@ namespace ForeignWords.App.Commands
 
         public override bool CanExecute(object? parameter)
         {
-            switch (_homeViewModel.AllNewPassedStatus)
-            {
-                case AllNewPassedStatus.All when _book.GetTranslationsCount() == 0:
-                case AllNewPassedStatus.New when _book.GetNewTranslationsCount() == 0:
-                case AllNewPassedStatus.Passed when _book.GetPassedTranslationsCount() == 0:
-                    return false;
-                case AllNewPassedStatus.None:
-                default:
-                    return _homeViewModel.Status is Status.None 
-                               or Status.ResponseKnowStatus 
-                               or Status.ResponseDoNotKnowStatus 
-                               or Status.ResponseDidNotKnowStatus
-                           && base.CanExecute(parameter);
-            }
+            return _homeViewModel.Status is Status.None
+                            or Status.ResponseKnowStatus
+                            or Status.ResponseDoNotKnowStatus
+                            or Status.ResponseDidNotKnowStatus
+                            && _homeViewModel.WordsCount > 0
+                            && base.CanExecute(parameter);
         }
 
         public override void Execute(object? parameter)
         {
-            _homeViewModel.Translation = _homeViewModel.AllNewPassedStatus switch
+            _homeViewModel.Translation = _homeViewModel.AllNewPassedSelection switch
             {
-                AllNewPassedStatus.All => _book.GetRandomTranslation(),
-                AllNewPassedStatus.New => _book.GetRandomNewTranslation(),
-                AllNewPassedStatus.Passed => _book.GetRandomPassedTranslation(),
+                0 => _book.GetRandomTranslation(),
+                1 => _book.GetRandomNewTranslation(),
+                2 => _book.GetRandomPassedTranslation(),
                 _ => throw new ArgumentOutOfRangeException()
             };
 
-            switch (_homeViewModel.DomesticForeignStatus)
+            switch (_homeViewModel.DomesticForeignSelection)
             {
-                case DomesticForeignStatus.Domestic:
+                case 0:
                     _homeViewModel.DomesticWord = _homeViewModel.Translation.DomesticWord;
                     _homeViewModel.ForeignWord = _homeViewModel.Translation.ForeignWords;
                     break;
-                case DomesticForeignStatus.Foreign:
+                case 1:
                     _homeViewModel.DomesticWord = GetRandomForeignWord(_homeViewModel.Translation);
                     _homeViewModel.ForeignWord = _book.GetDomesticTranslations(_homeViewModel.DomesticWord);
                     break;
-                case DomesticForeignStatus.None:
                 default:
                     throw new ArgumentOutOfRangeException();
             }

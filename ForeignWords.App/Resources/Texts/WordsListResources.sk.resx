@@ -117,43 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Add_Button_Content" xml:space="preserve">
-    <value>Add</value>
-  </data>
   <data name="Cancel_Button_Content" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Zrušiť</value>
   </data>
-  <data name="Domestic_Word_Label_Content" xml:space="preserve">
-    <value>English Word:</value>
+  <data name="Delete_Button_Content" xml:space="preserve">
+    <value>Vymazať</value>
   </data>
-  <data name="Foreign_Word_Label_Content" xml:space="preserve">
-    <value>Slovak Word:</value>
+  <data name="Delete_Success_Message_Box_Message" xml:space="preserve">
+    <value>Slovíčko úspešne vymazané</value>
   </data>
-  <data name="Header_Edit_Word_Content" xml:space="preserve">
-    <value>Edit Word</value>
+  <data name="Delete_Success_Message_Box_Title" xml:space="preserve">
+    <value>Úspešné</value>
   </data>
-  <data name="Header_New_Word_Content" xml:space="preserve">
-    <value>Add New Word</value>
+  <data name="Domestic_Word_Grid_View_Header" xml:space="preserve">
+    <value>Anglické slovo</value>
   </data>
-  <data name="Remove_Last_Button_Content" xml:space="preserve">
-    <value>Remove Last</value>
+  <data name="Edit_Button_Content" xml:space="preserve">
+    <value>Upraviť</value>
   </data>
-  <data name="Save_Button_Content" xml:space="preserve">
-    <value>Save</value>
+  <data name="Filter_Label_Content" xml:space="preserve">
+    <value>Filter:</value>
   </data>
-  <data name="Save_Success_Message_Box_Message" xml:space="preserve">
-    <value>Word successfully saved</value>
+  <data name="Score_Grid_View_Header" xml:space="preserve">
+    <value>Skóre</value>
   </data>
-  <data name="Save_Success_Message_Box_Title" xml:space="preserve">
-    <value>Success</value>
-  </data>
-  <data name="Update_Button_Content" xml:space="preserve">
-    <value>Update</value>
-  </data>
-  <data name="Update_Success_Message_Box_Message" xml:space="preserve">
-    <value>Word successfully updated</value>
-  </data>
-  <data name="Update_Success_Message_Box_Title" xml:space="preserve">
-    <value>Success</value>
+  <data name="Translations_Grid_View_Header" xml:space="preserve">
+    <value>Preklady</value>
   </data>
 </root>

@@ -23,22 +23,22 @@ namespace ForeignWords.App.Commands
 
         public override void Execute(object? parameter)
         {
-            _homeViewModel.AllNewPassedStatus = _homeViewModel.AllNewPassedSelection switch
+            /*_homeViewModel.AllNewPassedStatus = _homeViewModel.AllNewPassedSelection switch
             {
                 0 => AllNewPassedStatus.All,
                 1 => AllNewPassedStatus.New,
                 2 => AllNewPassedStatus.Passed,
                 _ => AllNewPassedStatus.None
-            };
+            };*/
 
-            _homeViewModel.DomesticForeignStatus = _homeViewModel.DomesticForeignSelection switch
+            /*_homeViewModel.DomesticForeignStatus = _homeViewModel.DomesticForeignSelection switch
             {
                 0 => DomesticForeignStatus.Domestic,
                 1 => DomesticForeignStatus.Foreign,
                 _ => DomesticForeignStatus.None
-            };
+            };*/
 
-            _homeViewModel.UpdateWordsCount();
+            _homeViewModel.SetDefaultScreen();
 
             _homeViewModel.Score = 0;
             _homeViewModel.DomesticWord = string.Empty;

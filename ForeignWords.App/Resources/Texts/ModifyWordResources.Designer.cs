@@ -133,11 +133,47 @@ namespace ForeignWords.App.Resources.Texts {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Word successfully saved.
+        /// </summary>
+        public static string Save_Success_Message_Box_Message {
+            get {
+                return ResourceManager.GetString("Save_Success_Message_Box_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Success.
+        /// </summary>
+        public static string Save_Success_Message_Box_Title {
+            get {
+                return ResourceManager.GetString("Save_Success_Message_Box_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Update.
         /// </summary>
         public static string Update_Button_Content {
             get {
                 return ResourceManager.GetString("Update_Button_Content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Word successfully updated.
+        /// </summary>
+        public static string Update_Success_Message_Box_Message {
+            get {
+                return ResourceManager.GetString("Update_Success_Message_Box_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Success.
+        /// </summary>
+        public static string Update_Success_Message_Box_Title {
+            get {
+                return ResourceManager.GetString("Update_Success_Message_Box_Title", resourceCulture);
             }
         }
     }

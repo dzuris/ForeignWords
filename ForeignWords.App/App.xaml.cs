@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
+using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using ForeignWords.App.Models;
@@ -23,6 +25,9 @@ public partial class App : Application
 
     public App()
     {
+        Thread.CurrentThread.CurrentCulture = new CultureInfo("sk");
+        Thread.CurrentThread.CurrentUICulture = new CultureInfo("sk");
+
         _book = new TranslationsBook();
         LoadFileIntoBook(_book);
 

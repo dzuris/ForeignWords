@@ -79,6 +79,24 @@ namespace ForeignWords.App.Resources.Texts {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Word successfully deleted.
+        /// </summary>
+        public static string Delete_Success_Message_Box_Message {
+            get {
+                return ResourceManager.GetString("Delete_Success_Message_Box_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Success.
+        /// </summary>
+        public static string Delete_Success_Message_Box_Title {
+            get {
+                return ResourceManager.GetString("Delete_Success_Message_Box_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to English Word.
         /// </summary>
         public static string Domestic_Word_Grid_View_Header {

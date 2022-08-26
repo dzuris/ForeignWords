@@ -44,6 +44,9 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>HomeResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Texts\HomeResources.sk.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Resources\Texts\ModifyWordResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>ModifyWordResources.Designer.cs</LastGenOutput>

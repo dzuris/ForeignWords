@@ -118,42 +118,42 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Add_Button_Content" xml:space="preserve">
-    <value>Add</value>
+    <value>Pridať</value>
   </data>
   <data name="Cancel_Button_Content" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Zrušiť</value>
   </data>
   <data name="Domestic_Word_Label_Content" xml:space="preserve">
-    <value>English Word:</value>
+    <value>Anglické slovíčko:</value>
   </data>
   <data name="Foreign_Word_Label_Content" xml:space="preserve">
-    <value>Slovak Word:</value>
+    <value>Slovenské slovíčko:</value>
   </data>
   <data name="Header_Edit_Word_Content" xml:space="preserve">
-    <value>Edit Word</value>
+    <value>Úprava slovíčka</value>
   </data>
   <data name="Header_New_Word_Content" xml:space="preserve">
-    <value>Add New Word</value>
+    <value>Nové slovíčko</value>
   </data>
   <data name="Remove_Last_Button_Content" xml:space="preserve">
-    <value>Remove Last</value>
+    <value>Odstrániť posledné</value>
   </data>
   <data name="Save_Button_Content" xml:space="preserve">
-    <value>Save</value>
+    <value>Uložiť</value>
   </data>
   <data name="Save_Success_Message_Box_Message" xml:space="preserve">
-    <value>Word successfully saved</value>
+    <value>Slovo úspešne uložené</value>
   </data>
   <data name="Save_Success_Message_Box_Title" xml:space="preserve">
-    <value>Success</value>
+    <value>Úspešné</value>
   </data>
   <data name="Update_Button_Content" xml:space="preserve">
-    <value>Update</value>
+    <value>Aktualizovať</value>
   </data>
   <data name="Update_Success_Message_Box_Message" xml:space="preserve">
-    <value>Word successfully updated</value>
+    <value>Slovo úspešne aktualizované</value>
   </data>
   <data name="Update_Success_Message_Box_Title" xml:space="preserve">
-    <value>Success</value>
+    <value>Úspešné</value>
   </data>
 </root>

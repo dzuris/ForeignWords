@@ -123,6 +123,12 @@
   <data name="Delete_Button_Content" xml:space="preserve">
     <value>Delete</value>
   </data>
+  <data name="Delete_Success_Message_Box_Message" xml:space="preserve">
+    <value>Word successfully deleted</value>
+  </data>
+  <data name="Delete_Success_Message_Box_Title" xml:space="preserve">
+    <value>Success</value>
+  </data>
   <data name="Domestic_Word_Grid_View_Header" xml:space="preserve">
     <value>English Word</value>
   </data>

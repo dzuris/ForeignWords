@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using ForeignWords.App.Resources.Texts;
 using ForeignWords.App.ViewModels;
 
 namespace ForeignWords.App.Commands
@@ -32,8 +33,12 @@ namespace ForeignWords.App.Commands
             _addNewWordViewModel.Translation.DomesticWord = _addNewWordViewModel.DomesticWord;
             _addNewWordViewModel.Translation.ForeignWords = _addNewWordViewModel.ForeignWords;
 
-            MessageBox.Show("Word successfully updated", "Success",
-                MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show(
+                ModifyWordResources.Update_Success_Message_Box_Message,
+                ModifyWordResources.Update_Success_Message_Box_Title,
+                MessageBoxButton.OK,
+                MessageBoxImage.Information
+                );
         }
 
         private void OnViewModelPropertyChanged(object? sender, PropertyChangedEventArgs e)

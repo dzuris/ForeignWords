@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using ForeignWords.App.Models;
+using ForeignWords.App.Resources.Texts;
 using ForeignWords.App.ViewModels;
 
 namespace ForeignWords.App.Commands
@@ -39,8 +40,12 @@ namespace ForeignWords.App.Commands
 
             _book.AddTranslation(translation);
 
-            MessageBox.Show("Word successfully saved", "Success", 
-                MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show(
+                ModifyWordResources.Save_Success_Message_Box_Message, 
+                ModifyWordResources.Save_Success_Message_Box_Title, 
+                MessageBoxButton.OK, 
+                MessageBoxImage.Information
+                );
 
             _addNewWordViewModel.DomesticWord = string.Empty;
             _addNewWordViewModel.ForeignWords = new List<string>();

@@ -27,8 +27,6 @@ public class HomeViewModel : ViewModelBase
     private List<string> _foreignWord = new();
 
     private Status _status = Status.None;
-    private AllNewPassedStatus _allNewPassedStatus = AllNewPassedStatus.All;
-    private DomesticForeignStatus _domesticForeignStatus = DomesticForeignStatus.Domestic;
 
     private int _allNewPassedSelection;
     private int _domesticForeignSelection;
@@ -43,26 +41,6 @@ public class HomeViewModel : ViewModelBase
         }
     }
 
-    public AllNewPassedStatus AllNewPassedStatus
-    {
-        get => _allNewPassedStatus;
-        set
-        {
-            _allNewPassedStatus = value;
-            OnPropertyChanged(nameof(AllNewPassedStatus));
-        }
-    }
-
-    public DomesticForeignStatus DomesticForeignStatus
-    {
-        get => _domesticForeignStatus;
-        set
-        {
-            _domesticForeignStatus = value;
-            OnPropertyChanged(nameof(DomesticForeignStatus));
-        }
-    }
-
     public int AllNewPassedSelection
     {
         get => _allNewPassedSelection;
@@ -70,6 +48,8 @@ public class HomeViewModel : ViewModelBase
         {
             _allNewPassedSelection = value;
             OnPropertyChanged(nameof(AllNewPassedSelection));
+
+            SetDefaultScreen();
         }
     }
 
@@ -80,6 +60,8 @@ public class HomeViewModel : ViewModelBase
         {
             _domesticForeignSelection = value;
             OnPropertyChanged(nameof(DomesticForeignSelection));
+
+            SetDefaultScreen();
         }
     }
 
@@ -161,12 +143,23 @@ public class HomeViewModel : ViewModelBase
 
     public void UpdateWordsCount()
     {
-        WordsCount = AllNewPassedStatus switch
+        WordsCount = AllNewPassedSelection switch
         {
-            AllNewPassedStatus.All => _book.GetTranslationsCount(),
-            AllNewPassedStatus.New => _book.GetNewTranslationsCount(),
-            AllNewPassedStatus.Passed => _book.GetPassedTranslationsCount(),
+            0 => _book.GetTranslationsCount(),
+            1 => _book.GetNewTranslationsCount(),
+            2 => _book.GetPassedTranslationsCount(),
             _ => -1
         };
+    }
+
+    public void SetDefaultScreen()
+    {
+        UpdateWordsCount();
+
+        Score = 0;
+        DomesticWord = string.Empty;
+        ForeignWord = new List<string>();
+
+        Status = Status.None;
     }
 }
