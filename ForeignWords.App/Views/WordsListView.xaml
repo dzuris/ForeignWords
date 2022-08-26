@@ -6,6 +6,7 @@
              xmlns:local="clr-namespace:ForeignWords.App.Views"
              xmlns:viewModels="clr-namespace:ForeignWords.App.ViewModels"
              xmlns:converters="clr-namespace:ForeignWords.App.Converters"
+             xmlns:texts="clr-namespace:ForeignWords.App.Resources.Texts"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
              d:DataContext="{d:DesignInstance viewModels:WordsListViewModel}">
@@ -32,7 +33,7 @@
             <TextBlock
                 Grid.Row="0"
                 Grid.Column="0"
-                Text="Filter:"
+                Text="{x:Static texts:WordsListResources.Filter_Label_Content}"
                 VerticalAlignment="Bottom"
                 Margin="15 0 0 0"
                 />
@@ -68,9 +69,9 @@
             AutoGenerateColumns="False"
             IsReadOnly="True">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Domestic Word" Binding="{Binding DomesticWord}"/>
-                <DataGridTextColumn Header="Translations" Binding="{Binding ForeignWords, Converter={StaticResource ListToStringConverter}}"/>
-                <DataGridTextColumn Header="Score" Binding="{Binding Score}"/>
+                <DataGridTextColumn Header="{x:Static texts:WordsListResources.Domestic_Word_Grid_View_Header}" Binding="{Binding DomesticWord}"/>
+                <DataGridTextColumn Header="{x:Static texts:WordsListResources.Translations_Grid_View_Header}" Binding="{Binding ForeignWords, Converter={StaticResource ListToStringConverter}}"/>
+                <DataGridTextColumn Header="{x:Static texts:WordsListResources.Score_Grid_View_Header}" Binding="{Binding Score}"/>
             </DataGrid.Columns>
         </DataGrid>
 
@@ -80,7 +81,7 @@
             Height="25"
             HorizontalAlignment="Left"
             Margin="15, 0, 0, 0"
-            Content="Cancel"
+            Content="{x:Static texts:WordsListResources.Cancel_Button_Content}"
             Command="{Binding CancelCommand}"
             />
 
@@ -90,14 +91,14 @@
                 Height="25"
                 HorizontalAlignment="Right"
                 Margin="0, 0, 15, 0"
-                Content="Delete"
+                Content="{x:Static texts:WordsListResources.Delete_Button_Content}"
                 Command="{Binding DeleteCommand}"
                 />
             <Button
                 Width="100"
                 Height="25"
                 HorizontalAlignment="Right"
-                Content="Edit"
+                Content="{x:Static texts:WordsListResources.Edit_Button_Content}"
                 Command="{Binding EditCommand}"
                 />
         </StackPanel>

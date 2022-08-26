@@ -118,42 +118,42 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Add_New_Word_Button_Content" xml:space="preserve">
-    <value>Add New Word</value>
+    <value>Pridať nové slovo</value>
   </data>
   <data name="All_New_Passed_Selection_All" xml:space="preserve">
-    <value>All</value>
+    <value>Všetky</value>
   </data>
   <data name="All_New_Passed_Selection_New" xml:space="preserve">
-    <value>New</value>
+    <value>Nové</value>
   </data>
   <data name="All_New_Passed_Selection_Passed" xml:space="preserve">
-    <value>Passed</value>
+    <value>Naučené</value>
   </data>
   <data name="Domestic_Foreign_Selection_Domestic" xml:space="preserve">
-    <value>English</value>
+    <value>Anglicky</value>
   </data>
   <data name="Domestic_Foreign_Selection_Foreign" xml:space="preserve">
-    <value>Slovak</value>
+    <value>Slovensky</value>
   </data>
   <data name="I_Did_Know_Button_Content" xml:space="preserve">
-    <value>I didn't know</value>
+    <value>Nevedel som</value>
   </data>
   <data name="I_Do_Not_Know_Button_Content" xml:space="preserve">
-    <value>I don't know</value>
+    <value>Neviem</value>
   </data>
   <data name="I_Know_Button_Content" xml:space="preserve">
-    <value>I know</value>
+    <value>Viem</value>
   </data>
   <data name="Random_Word_Button_Content" xml:space="preserve">
-    <value>Random Word</value>
+    <value>Náhodné slovo</value>
   </data>
   <data name="Refresh_Button_Content" xml:space="preserve">
-    <value>Refresh</value>
+    <value>Obnoviť</value>
   </data>
   <data name="Translation_Button_Content" xml:space="preserve">
-    <value>Transaltion</value>
+    <value>Preklad</value>
   </data>
   <data name="Words_List_Button_Content" xml:space="preserve">
-    <value>Words List</value>
+    <value>Zoznam slov</value>
   </data>
 </root>

@@ -5,6 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ForeignWords.App.Views"
              xmlns:converters="clr-namespace:ForeignWords.App.Converters"
+             xmlns:texts="clr-namespace:ForeignWords.App.Resources.Texts"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <UserControl.Resources>
@@ -39,14 +40,14 @@
         <Button
             Grid.Row="1"
             Grid.Column="0"
-            Content="Random Word (R)"
+            Content="{x:Static texts:HomeResources.Random_Word_Button_Content}"
             Margin="3"
             Command="{Binding RandomWordCommand}"/>
 
         <Button
             Grid.Row="1"
             Grid.Column="1"
-            Content="Refresh"
+            Content="{x:Static texts:HomeResources.Refresh_Button_Content}"
             Margin="3"
             Command="{Binding RefreshCommand}"/>
 
@@ -93,28 +94,28 @@
             <Button
                 Grid.Row="3"
                 Grid.Column="0"
-                Content="I know (K)"
+                Content="{x:Static texts:HomeResources.I_Know_Button_Content}"
                 Margin="3"
                 Command="{Binding KnowCommand}"/>
 
             <Button
                 Grid.Row="3"
                 Grid.Column="1"
-                Content="I don't know (L)"
+                Content="{x:Static texts:HomeResources.I_Do_Not_Know_Button_Content}"
                 Margin="3"
                 Command="{Binding DoNotKnowCommand}"/>
 
             <Button
                 Grid.Row="2"
                 Grid.Column="1"
-                Content="Translation (T)"
+                Content="{x:Static texts:HomeResources.Translation_Button_Content}"
                 Margin="3, 3, 3, 0"
                 Command="{Binding TranslationCommand}"/>
 
             <Button
                 Grid.Row="2"
                 Grid.Column="0"
-                Content="I didn't know (Q)"
+                Content="{x:Static texts:HomeResources.I_Did_Know_Button_Content}"
                 Margin="3, 3, 3, 0"
                 Command="{Binding DidNotKnowCommand}"/>
 
@@ -162,9 +163,9 @@
                 Margin="30, 0, 30, 0"
                 VerticalContentAlignment="Center"
                 SelectedIndex="{Binding AllNewPassedSelection}">
-                <ComboBoxItem Content="All"></ComboBoxItem>
-                <ComboBoxItem Content="New"></ComboBoxItem>
-                <ComboBoxItem Content="Passed"></ComboBoxItem>
+                <ComboBoxItem Content="{x:Static texts:HomeResources.All_New_Passed_Selection_All}"></ComboBoxItem>
+                <ComboBoxItem Content="{x:Static texts:HomeResources.All_New_Passed_Selection_New}"></ComboBoxItem>
+                <ComboBoxItem Content="{x:Static texts:HomeResources.All_New_Passed_Selection_Passed}"></ComboBoxItem>
             </ComboBox>
 
             <ComboBox 
@@ -173,8 +174,8 @@
                 Margin="30, 0, 30, 0"
                 VerticalContentAlignment="Center"
                 SelectedIndex="{Binding DomesticForeignSelection}">
-                <ComboBoxItem Content="Domestic"></ComboBoxItem>
-                <ComboBoxItem Content="Foreign"></ComboBoxItem>
+                <ComboBoxItem Content="{x:Static texts:HomeResources.Domestic_Foreign_Selection_Domestic}"></ComboBoxItem>
+                <ComboBoxItem Content="{x:Static texts:HomeResources.Domestic_Foreign_Selection_Foreign}"></ComboBoxItem>
             </ComboBox>
 
             <TextBlock 
@@ -187,14 +188,14 @@
             <Button
                 Grid.Row="3" 
                 Height="30"
-                Content="Add New Word"
+                Content="{x:Static texts:HomeResources.Add_New_Word_Button_Content}"
                 Margin="30, 0, 30, 0"
                 Command="{Binding AddNewWordCommand}"/>
 
             <Button
                 Grid.Row="4" 
                 Height="30"
-                Content="Show Words"
+                Content="{x:Static texts:HomeResources.Words_List_Button_Content}"
                 Margin="30, 0, 30, 0"
                 Command="{Binding ShowWordsCommand}"/>
         </Grid>

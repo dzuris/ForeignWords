@@ -117,43 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Add_New_Word_Button_Content" xml:space="preserve">
+  <data name="Add_Button_Content" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Cancel_Button_Content" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Domestic_Word_Label_Content" xml:space="preserve">
+    <value>English Word:</value>
+  </data>
+  <data name="Foreign_Word_Label_Content" xml:space="preserve">
+    <value>Slovak Word:</value>
+  </data>
+  <data name="Header_Edit_Word_Content" xml:space="preserve">
+    <value>Edit Word</value>
+  </data>
+  <data name="Header_New_Word_Content" xml:space="preserve">
     <value>Add New Word</value>
   </data>
-  <data name="All_New_Passed_Selection_All" xml:space="preserve">
-    <value>All</value>
+  <data name="Remove_Last_Button_Content" xml:space="preserve">
+    <value>Remove Last</value>
   </data>
-  <data name="All_New_Passed_Selection_New" xml:space="preserve">
-    <value>New</value>
+  <data name="Save_Button_Content" xml:space="preserve">
+    <value>Save</value>
   </data>
-  <data name="All_New_Passed_Selection_Passed" xml:space="preserve">
-    <value>Passed</value>
-  </data>
-  <data name="Domestic_Foreign_Selection_Domestic" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="Domestic_Foreign_Selection_Foreign" xml:space="preserve">
-    <value>Slovak</value>
-  </data>
-  <data name="I_Did_Know_Button_Content" xml:space="preserve">
-    <value>I didn't know</value>
-  </data>
-  <data name="I_Do_Not_Know_Button_Content" xml:space="preserve">
-    <value>I don't know</value>
-  </data>
-  <data name="I_Know_Button_Content" xml:space="preserve">
-    <value>I know</value>
-  </data>
-  <data name="Random_Word_Button_Content" xml:space="preserve">
-    <value>Random Word</value>
-  </data>
-  <data name="Refresh_Button_Content" xml:space="preserve">
-    <value>Refresh</value>
-  </data>
-  <data name="Translation_Button_Content" xml:space="preserve">
-    <value>Transaltion</value>
-  </data>
-  <data name="Words_List_Button_Content" xml:space="preserve">
-    <value>Words List</value>
+  <data name="Update_Button_Content" xml:space="preserve">
+    <value>Update</value>
   </data>
 </root>
