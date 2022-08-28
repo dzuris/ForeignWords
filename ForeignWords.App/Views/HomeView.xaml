@@ -40,6 +40,7 @@
         <Button
             Grid.Row="1"
             Grid.Column="0"
+            Height="Auto"
             Content="{x:Static texts:HomeResources.Random_Word_Button_Content}"
             Margin="3"
             Command="{Binding RandomWordCommand}"/>
@@ -141,20 +142,20 @@
             </Border>
         </Grid>
 
-        <Grid Grid.Row="0" Grid.Column="1">
+        <Grid Grid.Row="0" Grid.Column="1" Grid.RowSpan="2">
             <Grid.RowDefinitions>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
+                <RowDefinition Height="Auto" MinHeight="50"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition Height="Auto" MinHeight="50"/>
+                <RowDefinition Height="Auto" MinHeight="50"/>
             </Grid.RowDefinitions>
 
             <ComboBox 
-                Grid.Row="0"
-                Height="30"
-                Margin="30, 0, 30, 0"
+                Grid.Row="1"
+                Margin="15"
                 VerticalContentAlignment="Center"
+                VerticalAlignment="Top"
                 SelectedIndex="{Binding AllNewPassedSelection}">
                 <ComboBoxItem Content="{x:Static texts:HomeResources.All_New_Passed_Selection_All}"></ComboBoxItem>
                 <ComboBoxItem Content="{x:Static texts:HomeResources.All_New_Passed_Selection_New}"></ComboBoxItem>
@@ -162,34 +163,35 @@
             </ComboBox>
 
             <ComboBox 
-                Grid.Row="1"
-                Height="30"
-                Margin="30, 0, 30, 0"
+                Grid.Row="2"
+                Margin="15"
                 VerticalContentAlignment="Center"
+                VerticalAlignment="Top"
                 SelectedIndex="{Binding DomesticForeignSelection}">
                 <ComboBoxItem Content="{x:Static texts:HomeResources.Domestic_Foreign_Selection_Domestic}"></ComboBoxItem>
                 <ComboBoxItem Content="{x:Static texts:HomeResources.Domestic_Foreign_Selection_Foreign}"></ComboBoxItem>
             </ComboBox>
 
             <TextBlock 
-                Grid.Row="2"
+                Grid.Row="0"
                 TextAlignment="Center"
-                VerticalAlignment="Top"
+                VerticalAlignment="Bottom"
+                FontWeight="Bold"
+                FontSize="16"
                 Text="{Binding WordsCount, UpdateSourceTrigger=PropertyChanged}"
                 />
 
             <Button
                 Grid.Row="3" 
-                Height="30"
                 Content="{x:Static texts:HomeResources.Add_New_Word_Button_Content}"
-                Margin="30, 0, 30, 0"
+                Margin="15 0"
                 Command="{Binding AddNewWordCommand}"/>
 
             <Button
                 Grid.Row="4" 
                 Height="30"
                 Content="{x:Static texts:HomeResources.Words_List_Button_Content}"
-                Margin="30, 0, 30, 0"
+                Margin="15 0"
                 Command="{Binding ShowWordsCommand}"/>
         </Grid>
     </Grid>
