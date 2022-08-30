@@ -7,7 +7,6 @@
              xmlns:viewModels="clr-namespace:ForeignWords.App.ViewModels"
              xmlns:converters="clr-namespace:ForeignWords.App.Converters"
              xmlns:texts="clr-namespace:ForeignWords.App.Resources.Texts"
-             xmlns:controls="clr-namespace:ForeignWords.App.Controls"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
              d:DataContext="{d:DesignInstance viewModels:WordsListViewModel}">
@@ -16,7 +15,7 @@
     </UserControl.Resources>
     <Grid x:Name="Root">
         <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
@@ -36,26 +35,17 @@
                 Grid.Column="0"
                 Text="{x:Static texts:WordsListResources.Filter_Label_Content}"
                 VerticalAlignment="Bottom"
-                Margin="15 0 0 0"
+                Margin="15"
                 />
 
             <TextBox
                 Grid.Row="1"
                 Grid.Column="0"
                 Text="{Binding FilteredText, UpdateSourceTrigger=PropertyChanged}"
-                Margin="15 0 15 0"
+                Margin="15 5"
                 VerticalAlignment="Center"
                 FontSize="16"
             />
-
-            <!--<controls:ClickableIcon
-                Grid.Row="1"
-                Grid.Column="1"
-                HorizontalAlignment="Right"
-                VerticalAlignment="Center"
-                Margin="15 0 15 0"
-                IconSource="C:\Users\adamd\source\repos\foreignwords\ForeignWords\ForeignWords.App\Resources\Images\Eraser.png"
-                Command="{Binding ClearFilterCommand}"/>-->
 
             <Button
                 Grid.Row="1"
@@ -67,7 +57,7 @@
                 Margin="15 0 15 0"
                 Style="{StaticResource IconButton}"
                 Command="{Binding ClearFilterCommand}">
-                <Image Source="C:\Users\adamd\source\repos\foreignwords\ForeignWords\ForeignWords.App\Resources\Images\Eraser.png"/>
+                <Image Source="/Resources/Images/Eraser.png"/>
             </Button>
         </Grid>
 
@@ -76,13 +66,11 @@
             Grid.Row="1" 
             Margin="15" 
             ItemsSource="{Binding Path=Translations}" 
-            SelectedItem="{Binding SelectedTranslation, UpdateSourceTrigger=PropertyChanged}"
-            AutoGenerateColumns="False"
-            IsReadOnly="True">
+            SelectedItem="{Binding SelectedTranslation, UpdateSourceTrigger=PropertyChanged}">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="{x:Static texts:WordsListResources.Domestic_Word_Grid_View_Header}" Binding="{Binding DomesticWord}"/>
-                <DataGridTextColumn Header="{x:Static texts:WordsListResources.Translations_Grid_View_Header}" Binding="{Binding ForeignWords, Converter={StaticResource ListToStringConverter}}"/>
-                <DataGridTextColumn Header="{x:Static texts:WordsListResources.Score_Grid_View_Header}" Binding="{Binding Score}"/>
+                <DataGridTextColumn Width="*" Header="{x:Static texts:WordsListResources.Domestic_Word_Grid_View_Header}" Binding="{Binding DomesticWord}"/>
+                <DataGridTextColumn Width="*" Header="{x:Static texts:WordsListResources.Translations_Grid_View_Header}" Binding="{Binding ForeignWords, Converter={StaticResource ListToStringConverter}}"/>
+                <DataGridTextColumn Width="Auto" Header="{x:Static texts:WordsListResources.Score_Grid_View_Header}" Binding="{Binding Score}"/>
             </DataGrid.Columns>
         </DataGrid>
 

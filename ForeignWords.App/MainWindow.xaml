@@ -10,6 +10,7 @@
         mc:Ignorable="d"
         Height="450" 
         Width="800"
+        Icon="\Resources\Images\icon.ico"
         Title="{x:Static texts:TextResources.Title}"
         Background="{StaticResource DefaultWindowBackgroundBrush}">
     <Grid>

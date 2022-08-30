@@ -145,25 +145,39 @@
         <Grid Grid.Row="0" Grid.Column="1" Grid.RowSpan="2">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" MinHeight="50"/>
+                <RowDefinition Height="Auto"/>
                 <RowDefinition/>
+                <RowDefinition Height="Auto"/>
                 <RowDefinition/>
                 <RowDefinition Height="Auto" MinHeight="50"/>
                 <RowDefinition Height="Auto" MinHeight="50"/>
             </Grid.RowDefinitions>
 
-            <ComboBox 
+            <TextBlock
                 Grid.Row="1"
-                Margin="15"
+                Margin="15 15 15 0"
+                FontSize="12"
+                Text="{x:Static texts:HomeResources.Words_Type_Label}"/>
+
+            <ComboBox 
+                Grid.Row="2"
                 VerticalContentAlignment="Center"
                 VerticalAlignment="Top"
+                Margin="15"
                 SelectedIndex="{Binding AllNewPassedSelection}">
                 <ComboBoxItem Content="{x:Static texts:HomeResources.All_New_Passed_Selection_All}"></ComboBoxItem>
                 <ComboBoxItem Content="{x:Static texts:HomeResources.All_New_Passed_Selection_New}"></ComboBoxItem>
                 <ComboBoxItem Content="{x:Static texts:HomeResources.All_New_Passed_Selection_Passed}"></ComboBoxItem>
             </ComboBox>
 
+            <TextBlock
+                Grid.Row="3"
+                Margin="15 0"
+                FontSize="12"
+                Text="{x:Static texts:HomeResources.Words_Language_Label}"/>
+
             <ComboBox 
-                Grid.Row="2"
+                Grid.Row="4"
                 Margin="15"
                 VerticalContentAlignment="Center"
                 VerticalAlignment="Top"
@@ -172,23 +186,26 @@
                 <ComboBoxItem Content="{x:Static texts:HomeResources.Domestic_Foreign_Selection_Foreign}"></ComboBoxItem>
             </ComboBox>
 
-            <TextBlock 
-                Grid.Row="0"
-                TextAlignment="Center"
-                VerticalAlignment="Bottom"
+            <StackPanel Grid.Row="0" Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="15 5">
+                <TextBlock
+                FontSize="12"
+                Text="{x:Static texts:HomeResources.Words_Count_Label}"/>
+
+                <TextBlock 
                 FontWeight="Bold"
                 FontSize="16"
                 Text="{Binding WordsCount, UpdateSourceTrigger=PropertyChanged}"
                 />
+            </StackPanel>
 
             <Button
-                Grid.Row="3" 
+                Grid.Row="5" 
                 Content="{x:Static texts:HomeResources.Add_New_Word_Button_Content}"
                 Margin="15 0"
                 Command="{Binding AddNewWordCommand}"/>
 
             <Button
-                Grid.Row="4" 
+                Grid.Row="6" 
                 Height="30"
                 Content="{x:Static texts:HomeResources.Words_List_Button_Content}"
                 Margin="15 0"

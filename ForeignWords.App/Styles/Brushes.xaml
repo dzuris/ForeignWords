@@ -4,21 +4,27 @@
         <ResourceDictionary Source="Colors.xaml"/>
     </ResourceDictionary.MergedDictionaries>
     <!-- Override of SystemColors for DataGrid-->
-    <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="Green"/>
+    <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="Aquamarine"/>
+
+    <SolidColorBrush x:Key="DefaultDarkBrush" Color="{StaticResource DefaultDarkColor}"/>
+    <SolidColorBrush x:Key="DefaultLightBrush" Color="{StaticResource DefaultLightColor}"/>
+    <SolidColorBrush x:Key="DefaultNeutralBrush" Color="{StaticResource DefaultNeutralColor}"/>
 
     <SolidColorBrush x:Key="DefaultWindowBackgroundBrush" Color="White"/>
 
-    <SolidColorBrush x:Key="DefaultForegroundBrush" Color="{StaticResource DefaultForegroundColor}"/>
-    <SolidColorBrush x:Key="DefaultBackgroundBrush" Color="{StaticResource DefaultBackgroundColor}"/>
+    <SolidColorBrush x:Key="DefaultForegroundBrush" Color="White"/>
+    <SolidColorBrush x:Key="DefaultBackgroundBrush" Color="{StaticResource DefaultNeutralColor}"/>
     
-    <SolidColorBrush x:Key="DefaultBorderBrush" Color="{StaticResource DefaultBorderColor}"/>
+    <SolidColorBrush x:Key="DefaultBorderBrush" Color="{StaticResource DefaultDarkColor}"/>
 
-    <SolidColorBrush x:Key="DisabledBorderBrush" Color="Blue"/>
-    <SolidColorBrush x:Key="DisabledForegroundBrush" Color="GreenYellow"/>
+    <SolidColorBrush x:Key="DisabledBorderBrush" Color="Black"/>
+    <SolidColorBrush x:Key="DisabledForegroundBrush" Color="{StaticResource DefaultDarkColor}"/>
+    <SolidColorBrush x:Key="DisabledBackgroundBrush" Color="{StaticResource DefaultLightColor}"/>
 
-    <SolidColorBrush x:Key="ButtonMouseOverBackgroundBrush" Color="DarkRed"/>
+    <SolidColorBrush x:Key="ButtonMouseOverBackgroundBrush" Color="{StaticResource DefaultDarkColor}"/>
+    <SolidColorBrush x:Key="ButtonMouseOverIconBackgroundBrush" Color="LightGray"/>
     <SolidColorBrush x:Key="ButtonIsPressedBackgroundBrush" Color="Black"/>
     <SolidColorBrush x:Key="ButtonIsPressedBorderBrush" Color="LemonChiffon"/>
-    <SolidColorBrush x:Key="ButtonMouseOverBorderBrush" Color="SaddleBrown"/>
+    <SolidColorBrush x:Key="ButtonMouseOverBorderBrush" Color="{StaticResource DefaultLightColor}"/>
 
 </ResourceDictionary>

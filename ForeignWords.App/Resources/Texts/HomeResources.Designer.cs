@@ -169,11 +169,38 @@ namespace ForeignWords.App.Resources.Texts {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Words:.
+        /// </summary>
+        public static string Words_Count_Label {
+            get {
+                return ResourceManager.GetString("Words_Count_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Words language:.
+        /// </summary>
+        public static string Words_Language_Label {
+            get {
+                return ResourceManager.GetString("Words_Language_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Words List.
         /// </summary>
         public static string Words_List_Button_Content {
             get {
                 return ResourceManager.GetString("Words_List_Button_Content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Words type:.
+        /// </summary>
+        public static string Words_Type_Label {
+            get {
+                return ResourceManager.GetString("Words_Type_Label", resourceCulture);
             }
         }
     }

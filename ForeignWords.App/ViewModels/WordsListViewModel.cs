@@ -21,7 +21,7 @@ namespace ForeignWords.App.ViewModels
 
         public IEnumerable<Translation> Translations
         {
-            get => _translations;
+            get => _translations.OrderBy(trans => trans.DomesticWord);
             set
             {
                 _translations = value;

@@ -153,7 +153,16 @@
   <data name="Translation_Button_Content" xml:space="preserve">
     <value>Preklad</value>
   </data>
+  <data name="Words_Count_Label" xml:space="preserve">
+    <value>Počet slovíčok:</value>
+  </data>
+  <data name="Words_Language_Label" xml:space="preserve">
+    <value>Jazyk slovíčok:</value>
+  </data>
   <data name="Words_List_Button_Content" xml:space="preserve">
     <value>Zoznam slov</value>
+  </data>
+  <data name="Words_Type_Label" xml:space="preserve">
+    <value>Typ slovíčok:</value>
   </data>
 </root>

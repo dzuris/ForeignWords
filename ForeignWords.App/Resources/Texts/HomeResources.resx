@@ -153,7 +153,16 @@
   <data name="Translation_Button_Content" xml:space="preserve">
     <value>Transaltion</value>
   </data>
+  <data name="Words_Count_Label" xml:space="preserve">
+    <value>Words:</value>
+  </data>
+  <data name="Words_Language_Label" xml:space="preserve">
+    <value>Words language:</value>
+  </data>
   <data name="Words_List_Button_Content" xml:space="preserve">
     <value>Words List</value>
+  </data>
+  <data name="Words_Type_Label" xml:space="preserve">
+    <value>Words type:</value>
   </data>
 </root>

@@ -39,12 +39,13 @@
         <Setter Property="Foreground" Value="{StaticResource DefaultForegroundBrush}"/>
         <Setter Property="Background" Value="{StaticResource DefaultBackgroundBrush}"/>
         <Setter Property="BorderBrush" Value="{StaticResource DefaultBorderBrush}"/>
-        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="BorderThickness" Value="0"/>
         <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto"/>
         <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
         <Setter Property="Padding" Value="6,3,5,3"/>
         <Setter Property="ScrollViewer.CanContentScroll" Value="true"/>
         <Setter Property="ScrollViewer.PanningMode" Value="Both"/>
+        <Setter Property="FontFamily" Value="Arial"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type ComboBox}">
@@ -111,7 +112,7 @@
                             <Setter Property="Height" TargetName="dropDownBorder" Value="95"/>
                         </Trigger>
                         <Trigger Property="IsEnabled" Value="False">
-                            <Setter Property="Background" Value="#101010"/>
+                            <Setter Property="Background" Value="{StaticResource DisabledBackgroundBrush}"/>
                         </Trigger>
                         <MultiTrigger>
                             <MultiTrigger.Conditions>
