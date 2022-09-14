@@ -16,7 +16,7 @@ namespace ForeignWords.App.Converters
             if (value is not List<string> list) return result;
             result = list.FirstOrDefault();
 
-            return list.Skip(1).Aggregate(result, (current, element) => current + (", " + element));
+            return list.Skip(1).Aggregate(result, (current, element) => current + (",\n" + element));
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
