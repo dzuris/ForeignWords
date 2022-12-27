@@ -1,0 +1,24 @@
+[
+  {
+    "DomesticWord": "Domestic word",
+    "ForeignWords": [
+      "Foreign Word 1",
+      "Foreign Word 2"
+    ],
+    "Score":  "2"
+  },
+  {
+    "DomesticWord": "Delectable confectionery",
+    "ForeignWords": [
+      "Delikátne cukrovinky"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "Brat",
+    "ForeignWords": [
+      "Spratek"
+    ],
+    "Score": 0
+  }
+]

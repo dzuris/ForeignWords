@@ -9,7 +9,7 @@ namespace ForeignWords.App.Models;
 public class Translation
 {
     private string _domesticWord = "";
-    private List<string> _foreignWords = new List<string>();
+    private List<string> _foreignWords = new();
 
     public string DomesticWord
     {

@@ -5,10 +5,12 @@ using System.Data;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using ForeignWords.App.Models;
+using ForeignWords.App.Repositories;
 using ForeignWords.App.Services;
 using ForeignWords.App.Stores;
 using ForeignWords.App.ViewModels;
@@ -30,6 +32,8 @@ public partial class App : Application
 
         _book = new TranslationsBook();
         LoadFileIntoBook(_book);
+
+        var a = new TranslationsRepository();
 
         _navigationStore = new NavigationStore();
     }
@@ -75,23 +79,32 @@ public partial class App : Application
 
     private void LoadFileIntoBook(TranslationsBook book)
     {
-        IEnumerable<string> lines = File.ReadLines("words.txt");
+        // string fileName = "db.json";
+        // string jsonString = File.ReadAllText(fileName);
+        //
+        // List<Translation> allTranslations = JsonSerializer.Deserialize<List<Translation>>(jsonString)!;
+        // foreach (var transaltionModel in allTranslations)
+        // {
+        //     book.AddTranslation(transaltionModel);
+        // }
 
+        IEnumerable<string> lines = File.ReadLines("words.txt");
+        
         foreach (var line in lines)
         {
             string[] words = line.Split("|");
-
+        
             if (words.Length != 3)
             {
                 throw new ArgumentOutOfRangeException();
             }
-
+        
             var domesticWord = words[0];
             var foreignWords = words[1].Split(",");
             var score = int.Parse(words[2]);
-
+        
             var translation = new Translation(domesticWord, foreignWords.ToList(), score);
-
+        
             book.AddTranslation(translation);
         }
     }
