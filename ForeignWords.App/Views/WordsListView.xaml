@@ -3,7 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:ForeignWords.App.Views"
              xmlns:viewModels="clr-namespace:ForeignWords.App.ViewModels"
              xmlns:converters="clr-namespace:ForeignWords.App.Converters"
              xmlns:texts="clr-namespace:ForeignWords.App.Resources.Texts"
@@ -13,7 +12,7 @@
     <UserControl.Resources>
         <converters:ListToStringConverter x:Key="ListToStringConverter"/>
     </UserControl.Resources>
-    <Grid x:Name="Root">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition/>
@@ -80,7 +79,7 @@
             Height="25"
             HorizontalAlignment="Left"
             Margin="15, 0, 0, 0"
-            Content="{x:Static texts:WordsListResources.Cancel_Button_Content}"
+            Content="{x:Static texts:WordsListResources.Back_Button_Content}"
             Command="{Binding CancelCommand}"
             />
 

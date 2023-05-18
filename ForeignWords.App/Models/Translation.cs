@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace ForeignWords.App.Models;
 
@@ -23,9 +19,16 @@ public class Translation
     }
     public int Score { get; set; }
 
+    public Translation()
+    {
+        DomesticWord = string.Empty;
+        ForeignWords = new List<string>();
+        Score = 0;
+    }
+
     public Translation(string domesticWords, List<string> foreignWords, int score = 0)
     {
-        DomesticWord = domesticWords.ToLower();
+        DomesticWord = domesticWords;
         ForeignWords = foreignWords;
         Score = score;
     }

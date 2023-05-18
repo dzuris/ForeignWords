@@ -61,11 +61,11 @@ namespace ForeignWords.App.Resources.Texts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cancel.
+        ///   Looks up a localized string similar to Back.
         /// </summary>
-        public static string Cancel_Button_Content {
+        public static string Back_Button_Content {
             get {
-                return ResourceManager.GetString("Cancel_Button_Content", resourceCulture);
+                return ResourceManager.GetString("Back_Button_Content", resourceCulture);
             }
         }
         
