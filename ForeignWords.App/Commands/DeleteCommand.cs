@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using ForeignWords.App.Models;
+using ForeignWords.App.Resources.Texts;
 using ForeignWords.App.ViewModels;
 
 namespace ForeignWords.App.Commands
@@ -32,8 +33,12 @@ namespace ForeignWords.App.Commands
         {
             _book.DeleteTranslation(_wordsListViewModel.SelectedTranslation!);
 
-            MessageBox.Show("Translation were successfully deleted", "Success",
-                MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show(
+                WordsListResources.Delete_Success_Message_Box_Message, 
+                WordsListResources.Delete_Success_Message_Box_Title,
+                MessageBoxButton.OK, 
+                MessageBoxImage.Information
+                );
 
             _wordsListViewModel.SelectedTranslation = null;
             _wordsListViewModel.FilteredText = "";

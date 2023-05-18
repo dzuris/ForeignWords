@@ -22,7 +22,7 @@ namespace ForeignWords.App.Resources.Texts {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class HomeResources {
+    public class HomeResources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace ForeignWords.App.Resources.Texts {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ForeignWords.App.Resources.Texts.HomeResources", typeof(HomeResources).Assembly);
@@ -51,12 +51,156 @@ namespace ForeignWords.App.Resources.Texts {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add New Word.
+        /// </summary>
+        public static string Add_New_Word_Button_Content {
+            get {
+                return ResourceManager.GetString("Add_New_Word_Button_Content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to All.
+        /// </summary>
+        public static string All_New_Passed_Selection_All {
+            get {
+                return ResourceManager.GetString("All_New_Passed_Selection_All", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New.
+        /// </summary>
+        public static string All_New_Passed_Selection_New {
+            get {
+                return ResourceManager.GetString("All_New_Passed_Selection_New", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Passed.
+        /// </summary>
+        public static string All_New_Passed_Selection_Passed {
+            get {
+                return ResourceManager.GetString("All_New_Passed_Selection_Passed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English.
+        /// </summary>
+        public static string Domestic_Foreign_Selection_Domestic {
+            get {
+                return ResourceManager.GetString("Domestic_Foreign_Selection_Domestic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Slovak.
+        /// </summary>
+        public static string Domestic_Foreign_Selection_Foreign {
+            get {
+                return ResourceManager.GetString("Domestic_Foreign_Selection_Foreign", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I didn&apos;t know.
+        /// </summary>
+        public static string I_Did_Know_Button_Content {
+            get {
+                return ResourceManager.GetString("I_Did_Know_Button_Content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I don&apos;t know.
+        /// </summary>
+        public static string I_Do_Not_Know_Button_Content {
+            get {
+                return ResourceManager.GetString("I_Do_Not_Know_Button_Content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I know.
+        /// </summary>
+        public static string I_Know_Button_Content {
+            get {
+                return ResourceManager.GetString("I_Know_Button_Content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Random Word.
+        /// </summary>
+        public static string Random_Word_Button_Content {
+            get {
+                return ResourceManager.GetString("Random_Word_Button_Content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Refresh.
+        /// </summary>
+        public static string Refresh_Button_Content {
+            get {
+                return ResourceManager.GetString("Refresh_Button_Content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Transaltion.
+        /// </summary>
+        public static string Translation_Button_Content {
+            get {
+                return ResourceManager.GetString("Translation_Button_Content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Words:.
+        /// </summary>
+        public static string Words_Count_Label {
+            get {
+                return ResourceManager.GetString("Words_Count_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Words language:.
+        /// </summary>
+        public static string Words_Language_Label {
+            get {
+                return ResourceManager.GetString("Words_Language_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Words List.
+        /// </summary>
+        public static string Words_List_Button_Content {
+            get {
+                return ResourceManager.GetString("Words_List_Button_Content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Words type:.
+        /// </summary>
+        public static string Words_Type_Label {
+            get {
+                return ResourceManager.GetString("Words_Type_Label", resourceCulture);
             }
         }
     }

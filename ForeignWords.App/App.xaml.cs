@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
+using System.Globalization;
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Threading;
 using System.Windows;
 using ForeignWords.App.Models;
 using ForeignWords.App.Services;
 using ForeignWords.App.Stores;
 using ForeignWords.App.ViewModels;
+using Newtonsoft.Json;
 
 namespace ForeignWords.App;
 
@@ -20,9 +19,13 @@ public partial class App : Application
 {
     private readonly TranslationsBook _book;
     private readonly NavigationStore _navigationStore;
+    private const string FileName = "C:\\Users\\adamd\\source\\repos\\ForeignWords\\ForeignWords\\ForeignWords.App\\db.json";
 
     public App()
     {
+        Thread.CurrentThread.CurrentCulture = new CultureInfo("sk");
+        Thread.CurrentThread.CurrentUICulture = new CultureInfo("sk");
+
         _book = new TranslationsBook();
         LoadFileIntoBook(_book);
 
@@ -68,44 +71,24 @@ public partial class App : Application
             _navigationStore, new NavigationService(_navigationStore, CreateWordsListViewModel));
     }
 
-    private void LoadFileIntoBook(TranslationsBook book)
+    private static void LoadFileIntoBook(TranslationsBook book)
     {
-        IEnumerable<string> lines = File.ReadLines("words.txt");
+        var json = File.ReadAllText(FileName);
+        var allTranslations = JsonConvert.DeserializeObject<List<Translation>>(json);
 
-        foreach (var line in lines)
+        if (allTranslations is null)
         {
-            string[] words = line.Split("|");
+            return;
+        }
 
-            if (words.Length != 3)
-            {
-                throw new ArgumentOutOfRangeException();
-            }
-
-            var domesticWord = words[0];
-            var foreignWords = words[1].Split(",");
-            var score = int.Parse(words[2]);
-
-            var translation = new Translation(domesticWord, foreignWords.ToList(), score);
-
-            book.AddTranslation(translation);
+        foreach (var translationModel in allTranslations)
+        {
+            book.AddTranslation(translationModel);
         }
     }
 
-    private void WriteTranslationsIntoFile(TranslationsBook book)
+    private static void WriteTranslationsIntoFile(TranslationsBook book)
     {
-        var lines = new List<string>();
-
-        foreach (var translation in book.GetAllTranslations())
-        {
-            var domesticWord = translation.DomesticWord;
-            var foreignWords = string.Join(",", translation.ForeignWords);
-            var score = translation.Score.ToString();
-
-            var line = domesticWord + "|" + foreignWords + "|" + score;
-
-            lines.Add(line);
-        }
-
-        File.WriteAllLines("words.txt", lines);
+        File.WriteAllText(FileName, JsonConvert.SerializeObject(book.GetAllTranslations(), Formatting.Indented));
     }
 }

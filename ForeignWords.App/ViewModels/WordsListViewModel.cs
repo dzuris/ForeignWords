@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
 using ForeignWords.App.Commands;
 using ForeignWords.App.Models;
@@ -21,7 +17,7 @@ namespace ForeignWords.App.ViewModels
 
         public IEnumerable<Translation> Translations
         {
-            get => _translations;
+            get => _translations.OrderBy(trans => trans.DomesticWord);
             set
             {
                 _translations = value;

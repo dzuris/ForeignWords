@@ -12,11 +12,11 @@ public class TranslationsBook
 {
     private const int ScoreBorder = 5;
 
-    private readonly ObservableCollection<Translation> _translations;
+    private readonly List<Translation> _translations;
 
     public TranslationsBook()
     {
-        _translations = new ObservableCollection<Translation>();
+        _translations = new List<Translation>();
     }
 
     public void AddTranslation(Translation translation)
@@ -77,7 +77,7 @@ public class TranslationsBook
         return translations.Select(translationItem => translationItem.DomesticWord).ToList();
     }
 
-    public ObservableCollection<Translation> GetAllTranslations()
+    public List<Translation> GetAllTranslations()
     {
         return _translations;
     }

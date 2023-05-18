@@ -1,0 +1,4668 @@
+[
+  {
+    "DomesticWord": "delectable confectionery",
+    "ForeignWords": [
+      "delikátne cukrovinky"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "brat",
+    "ForeignWords": [
+      "spratek"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "repulsive",
+    "ForeignWords": [
+      "odpudzujúci"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "abbreviation",
+    "ForeignWords": [
+      "skratka"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "abduct",
+    "ForeignWords": [
+      "uniesť"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "abominable",
+    "ForeignWords": [
+      "ohavný",
+      "odporný"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "violate",
+    "ForeignWords": [
+      "porušovať"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "abruptly",
+    "ForeignWords": [
+      "náhle"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "tend",
+    "ForeignWords": [
+      "tendencia",
+      "skláňať sa"
+    ],
+    "Score": 4
+  },
+  {
+    "DomesticWord": "abundance",
+    "ForeignWords": [
+      "hojnosť"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "ominous",
+    "ForeignWords": [
+      "zlovestný"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "abyss",
+    "ForeignWords": [
+      "priepasť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "accomplishment",
+    "ForeignWords": [
+      "úspech"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "accosted us",
+    "ForeignWords": [
+      "nás oslovil"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "accuse",
+    "ForeignWords": [
+      "obviniť"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "accustomed",
+    "ForeignWords": [
+      "zvyknutý"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "acquainted",
+    "ForeignWords": [
+      "zoznámil"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "acquiescence",
+    "ForeignWords": [
+      "súhlas"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "acquisition",
+    "ForeignWords": [
+      "akvizície"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "acquit",
+    "ForeignWords": [
+      "oslobodiť spod obžaloby"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "addenda",
+    "ForeignWords": [
+      "dodatok"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "adjacent",
+    "ForeignWords": [
+      "susedný"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "adjective",
+    "ForeignWords": [
+      "prídavne meno"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "adjustment",
+    "ForeignWords": [
+      "úprava"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "admiration",
+    "ForeignWords": [
+      "obdiv"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "adverb",
+    "ForeignWords": [
+      "príslovka"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "afterwards",
+    "ForeignWords": [
+      "potom"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "aggravate",
+    "ForeignWords": [
+      "zhoršiť"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "akin",
+    "ForeignWords": [
+      "podobný"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "alleged",
+    "ForeignWords": [
+      "údajny"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "allure",
+    "ForeignWords": [
+      "lákadlo"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "although",
+    "ForeignWords": [
+      "hoci"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "amber",
+    "ForeignWords": [
+      "jantár"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "ambidextrous",
+    "ForeignWords": [
+      "obojručný"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "amiable",
+    "ForeignWords": [
+      "prívetivý"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "amid",
+    "ForeignWords": [
+      "uprostred"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "amiss",
+    "ForeignWords": [
+      "zle"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "ample",
+    "ForeignWords": [
+      "dostatok"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "amused",
+    "ForeignWords": [
+      "pobavený"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "ancestor",
+    "ForeignWords": [
+      "predok"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "antagonize",
+    "ForeignWords": [
+      "znepriateliť si"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "appeal",
+    "ForeignWords": [
+      "príťažlivosť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "appliance",
+    "ForeignWords": [
+      "spotrebič"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "apprehensive",
+    "ForeignWords": [
+      "chápavý"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "approach",
+    "ForeignWords": [
+      "prístup"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "approximately",
+    "ForeignWords": [
+      "približne"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "apron",
+    "ForeignWords": [
+      "zástera"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "arbitrary",
+    "ForeignWords": [
+      "svojvoľný"
+    ],
+    "Score": 3
+  },
+  {
+    "DomesticWord": "arbitrate",
+    "ForeignWords": [
+      "rozhodovať"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "arbour",
+    "ForeignWords": [
+      "altánok"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "aridity",
+    "ForeignWords": [
+      "vyprahnutosť"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "arouse",
+    "ForeignWords": [
+      "vzbudiť"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "asinine game",
+    "ForeignWords": [
+      "hlúpa hra"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "assuaged",
+    "ForeignWords": [
+      "upokojil"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "assume",
+    "ForeignWords": [
+      "predpokladať"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "assumption",
+    "ForeignWords": [
+      "predpoklad"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "assurance",
+    "ForeignWords": [
+      "uistenie"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "astounded",
+    "ForeignWords": [
+      "ohrozený"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "attain",
+    "ForeignWords": [
+      "dosiahnuť"
+    ],
+    "Score": 3
+  },
+  {
+    "DomesticWord": "attorney",
+    "ForeignWords": [
+      "advokát"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "auburn",
+    "ForeignWords": [
+      "gaštanový"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "auspicious",
+    "ForeignWords": [
+      "priaznivé"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "awful",
+    "ForeignWords": [
+      "veľmi zlý"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "axis",
+    "ForeignWords": [
+      "os"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "bade us",
+    "ForeignWords": [
+      "prikázal nám"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "barn",
+    "ForeignWords": [
+      "stodola"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "bathrobe",
+    "ForeignWords": [
+      "župan"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "baton",
+    "ForeignWords": [
+      "obušok"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "bawl",
+    "ForeignWords": [
+      "bučať"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "beckon",
+    "ForeignWords": [
+      "(po)kývnuť"
+    ],
+    "Score": 3
+  },
+  {
+    "DomesticWord": "bedecked",
+    "ForeignWords": [
+      "vyzdobený"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "beholden",
+    "ForeignWords": [
+      "zaviazaný"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "bend",
+    "ForeignWords": [
+      "ohnúť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "benediction",
+    "ForeignWords": [
+      "požehnanie"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "bewilderment",
+    "ForeignWords": [
+      "zmätenosť"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "bland",
+    "ForeignWords": [
+      "nevýrazná"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "boldness",
+    "ForeignWords": [
+      "smelosť"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "bonds",
+    "ForeignWords": [
+      "dlhopisy"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "boot",
+    "ForeignWords": [
+      "čižmové"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "borne",
+    "ForeignWords": [
+      "znášaný",
+      "odnášaný"
+    ],
+    "Score": 4
+  },
+  {
+    "DomesticWord": "bosom",
+    "ForeignWords": [
+      "prsia"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "bother",
+    "ForeignWords": [
+      "obťažovať"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "bout",
+    "ForeignWords": [
+      "záchvat"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "breeze",
+    "ForeignWords": [
+      "vánok"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "brethren",
+    "ForeignWords": [
+      "bratia"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "broom",
+    "ForeignWords": [
+      "metla"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "bulkiness",
+    "ForeignWords": [
+      "objemnosť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "burden",
+    "ForeignWords": [
+      "bremeno",
+      "záťaž"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "bureau",
+    "ForeignWords": [
+      "úrad"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "calculus",
+    "ForeignWords": [
+      "počet"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "camisole",
+    "ForeignWords": [
+      "košielka"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "candid",
+    "ForeignWords": [
+      "úprimný"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "cantankerous",
+    "ForeignWords": [
+      "škandalózne"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "careless",
+    "ForeignWords": [
+      "neopatrný"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "carpenter",
+    "ForeignWords": [
+      "tesár"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "ceased",
+    "ForeignWords": [
+      "prestalo"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "cheek",
+    "ForeignWords": [
+      "líca"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "chimney",
+    "ForeignWords": [
+      "komín"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "choroid",
+    "ForeignWords": [
+      "cievnatka"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "chuckling",
+    "ForeignWords": [
+      "chichotanie"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "circumference",
+    "ForeignWords": [
+      "obvod"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "claw",
+    "ForeignWords": [
+      "pazúr"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "clump",
+    "ForeignWords": [
+      "zhlukovať"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "clustered",
+    "ForeignWords": [
+      "zoskupené"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "coffin",
+    "ForeignWords": [
+      "truhla"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "comb",
+    "ForeignWords": [
+      "hrebeň"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "commensurate",
+    "ForeignWords": [
+      "úmerne"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "complimentary",
+    "ForeignWords": [
+      "bezplatný"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "comprehensive",
+    "ForeignWords": [
+      "obsiahly"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "concealed",
+    "ForeignWords": [
+      "skryté"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "conceded",
+    "ForeignWords": [
+      "pripustil"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "concise",
+    "ForeignWords": [
+      "stručný"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "condescend",
+    "ForeignWords": [
+      "blahosklonne"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "conduct",
+    "ForeignWords": [
+      "správanie"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "cone",
+    "ForeignWords": [
+      "kužeľ"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "confession",
+    "ForeignWords": [
+      "spoveď"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "confidently",
+    "ForeignWords": [
+      "sebavedomo"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "confine",
+    "ForeignWords": [
+      "obmedziť",
+      "zabrániť šíreniu"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "conjunctiva",
+    "ForeignWords": [
+      "spojovky"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "conscience",
+    "ForeignWords": [
+      "svedomie"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "consciousness",
+    "ForeignWords": [
+      "vedomie"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "considerable",
+    "ForeignWords": [
+      "značne"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "contemplation",
+    "ForeignWords": [
+      "rozjímanie"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "contemporaries",
+    "ForeignWords": [
+      "súčastníci"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "contentment",
+    "ForeignWords": [
+      "spokojnosť"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "contradict",
+    "ForeignWords": [
+      "protirečiť"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "contribute",
+    "ForeignWords": [
+      "prispieť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "cordial",
+    "ForeignWords": [
+      "srdečný"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "cork",
+    "ForeignWords": [
+      "korok"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "cornea",
+    "ForeignWords": [
+      "rohovka"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "cot",
+    "ForeignWords": [
+      "detská postieľka"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "crawl",
+    "ForeignWords": [
+      "plaziť sa"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "crumbling",
+    "ForeignWords": [
+      "rozpadajúce sa"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "cue",
+    "ForeignWords": [
+      "tágo (billiard)",
+      "povel"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "culpable",
+    "ForeignWords": [
+      "zavinený"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "culprit",
+    "ForeignWords": [
+      "vinník"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "cunning",
+    "ForeignWords": [
+      "prefíkaný"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "current",
+    "ForeignWords": [
+      "prúd",
+      "súčasný"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "curtness",
+    "ForeignWords": [
+      "strohosť"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "curtsy",
+    "ForeignWords": [
+      "ukloniť sa"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "curve",
+    "ForeignWords": [
+      "krivka"
+    ],
+    "Score": 3
+  },
+  {
+    "DomesticWord": "cylinder",
+    "ForeignWords": [
+      "valec"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "decreed",
+    "ForeignWords": [
+      "nariadené"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "dedicated",
+    "ForeignWords": [
+      "oddaný",
+      "zanietený"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "defiance",
+    "ForeignWords": [
+      "vzdor"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "defiant",
+    "ForeignWords": [
+      "vzdorovitý"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "deity",
+    "ForeignWords": [
+      "božstvo"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "deliberately",
+    "ForeignWords": [
+      "zámerne"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "delicious",
+    "ForeignWords": [
+      "veľmi chutný"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "delimiter",
+    "ForeignWords": [
+      "oddelovač"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "deranged",
+    "ForeignWords": [
+      "vyšinutý"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "desalination",
+    "ForeignWords": [
+      "odsoľovanie"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "descend",
+    "ForeignWords": [
+      "zostúpiť"
+    ],
+    "Score": 4
+  },
+  {
+    "DomesticWord": "desolate",
+    "ForeignWords": [
+      "pustý",
+      "opustený"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "despair",
+    "ForeignWords": [
+      "zúfalstvo"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "desparately",
+    "ForeignWords": [
+      "zúfalo"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "detachment",
+    "ForeignWords": [
+      "odlúčenie"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "deviate",
+    "ForeignWords": [
+      "odchýliť sa"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "devise",
+    "ForeignWords": [
+      "vymyslieť"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "devising",
+    "ForeignWords": [
+      "vymýšľanie"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "devoid",
+    "ForeignWords": [
+      "zbavený"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "devoted",
+    "ForeignWords": [
+      "oddaný"
+    ],
+    "Score": 3
+  },
+  {
+    "DomesticWord": "devotion",
+    "ForeignWords": [
+      "oddanosť"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "devour",
+    "ForeignWords": [
+      "zhltnút"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "dew",
+    "ForeignWords": [
+      "rosa"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "diameter",
+    "ForeignWords": [
+      "priemer"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "dignity",
+    "ForeignWords": [
+      "dôstojnosť"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "dimensions",
+    "ForeignWords": [
+      "rozmery"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "dimly",
+    "ForeignWords": [
+      "matne"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "disfiguring",
+    "ForeignWords": [
+      "znetvorenie"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "disguise",
+    "ForeignWords": [
+      "prestrojiť"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "dismissal",
+    "ForeignWords": [
+      "výpoveď"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "disobey",
+    "ForeignWords": [
+      "neposlúchnuť"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "disorderly conduct",
+    "ForeignWords": [
+      "výtržníctvo"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "dissatisfied",
+    "ForeignWords": [
+      "nespokojný"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "dizzy",
+    "ForeignWords": [
+      "majúci závrat"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "dodge",
+    "ForeignWords": [
+      "uhnúť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "dosage",
+    "ForeignWords": [
+      "dávkovanie"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "doubtless",
+    "ForeignWords": [
+      "nepochybne"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "dove",
+    "ForeignWords": [
+      "holubica"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "dread",
+    "ForeignWords": [
+      "strach"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "dreary",
+    "ForeignWords": [
+      "pochmúrny"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "dull",
+    "ForeignWords": [
+      "fádne"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "eagerness",
+    "ForeignWords": [
+      "dychtivosť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "eager",
+    "ForeignWords": [
+      "dychtivý"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "ease",
+    "ForeignWords": [
+      "ľahkosť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "eerie",
+    "ForeignWords": [
+      "strašidelný"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "effortless",
+    "ForeignWords": [
+      "veľmi ľahký"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "elicit",
+    "ForeignWords": [
+      "vyvolať"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "elocutation",
+    "ForeignWords": [
+      "prednes"
+    ],
+    "Score": 4
+  },
+  {
+    "DomesticWord": "elude",
+    "ForeignWords": [
+      "uniknúť",
+      "vyhýbať sa"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "elusive",
+    "ForeignWords": [
+      "nepolapiteľný"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "emberred",
+    "ForeignWords": [
+      "zabudovaný"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "ember",
+    "ForeignWords": [
+      "žeravý uhlík"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "emulate",
+    "ForeignWords": [
+      "napodobniť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "encounter",
+    "ForeignWords": [
+      "stretnúť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "encourage",
+    "ForeignWords": [
+      "povzbudiť"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "encumber",
+    "ForeignWords": [
+      "zaťažiť"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "endorsement",
+    "ForeignWords": [
+      "potvrdenie"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "endure",
+    "ForeignWords": [
+      "vydržať"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "ensving",
+    "ForeignWords": [
+      "nasledujúca"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "entailment",
+    "ForeignWords": [
+      "obťažovanie"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "erratically",
+    "ForeignWords": [
+      "nepravidelne"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "essentially",
+    "ForeignWords": [
+      "v podstate"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "et cetera",
+    "ForeignWords": [
+      "a tak ďalej"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "eternal",
+    "ForeignWords": [
+      "večný"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "evaporate",
+    "ForeignWords": [
+      "odparovať"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "evasion",
+    "ForeignWords": [
+      "vyhýbanie sa"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "everlasting",
+    "ForeignWords": [
+      "večný"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "evocation",
+    "ForeignWords": [
+      "evokácia"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "examine",
+    "ForeignWords": [
+      "skúmať",
+      "vyšetriť",
+      "skúšať"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "exceed",
+    "ForeignWords": [
+      "prekročiť",
+      "prekonať"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "exceptional",
+    "ForeignWords": [
+      "veľmi výnimočný"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "excite",
+    "ForeignWords": [
+      "vzrušovať"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "exhausted",
+    "ForeignWords": [
+      "vemi unavený"
+    ],
+    "Score": 4
+  },
+  {
+    "DomesticWord": "exhausting",
+    "ForeignWords": [
+      "vyčerpávajúce"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "exhilarating",
+    "ForeignWords": [
+      "vzrušujúci"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "expressed",
+    "ForeignWords": [
+      "vyjadrený"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "expunge",
+    "ForeignWords": [
+      "vymazať"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "extend",
+    "ForeignWords": [
+      "predĺžiť"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "eye irises",
+    "ForeignWords": [
+      "očné dúhovky"
+    ],
+    "Score": 4
+  },
+  {
+    "DomesticWord": "eye retinas",
+    "ForeignWords": [
+      "očné sietnice"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "faint",
+    "ForeignWords": [
+      "mdloby"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "falcon",
+    "ForeignWords": [
+      "sokol"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "fancies",
+    "ForeignWords": [
+      "fantázie"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "fang",
+    "ForeignWords": [
+      "tesák"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "farther",
+    "ForeignWords": [
+      "ďalej"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "fatigue",
+    "ForeignWords": [
+      "únava"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "feeble",
+    "ForeignWords": [
+      "slabý"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "fever",
+    "ForeignWords": [
+      "horúčka"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "fidgeting",
+    "ForeignWords": [
+      "vrtieť sa"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "finer",
+    "ForeignWords": [
+      "jemnejšie"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "firm",
+    "ForeignWords": [
+      "pevný",
+      "firma"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "flattered",
+    "ForeignWords": [
+      "polichotený"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "flaw",
+    "ForeignWords": [
+      "chyba"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "flea",
+    "ForeignWords": [
+      "blcha"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "flue",
+    "ForeignWords": [
+      "dymovod"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "fog",
+    "ForeignWords": [
+      "hmla"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "foray",
+    "ForeignWords": [
+      "nájazd"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "forceful",
+    "ForeignWords": [
+      "veľmi silný"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "forefinger",
+    "ForeignWords": [
+      "ukazovák"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "forlorn",
+    "ForeignWords": [
+      "opustený"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "formidable",
+    "ForeignWords": [
+      "impozantný"
+    ],
+    "Score": 3
+  },
+  {
+    "DomesticWord": "fortuitously",
+    "ForeignWords": [
+      "náhodne"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "fraction",
+    "ForeignWords": [
+      "zlomok"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "freezing",
+    "ForeignWords": [
+      "veľmi studený"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "fret",
+    "ForeignWords": [
+      "rozčuľovať sa"
+    ],
+    "Score": 3
+  },
+  {
+    "DomesticWord": "fright",
+    "ForeignWords": [
+      "zalknúť sa",
+      "des",
+      "strach"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "frowning",
+    "ForeignWords": [
+      "zamračené"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "fruitless",
+    "ForeignWords": [
+      "márny",
+      "bezvýsledny"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "furious",
+    "ForeignWords": [
+      "veľmi nahnevaný"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "fuse",
+    "ForeignWords": [
+      "poistka"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "fuss",
+    "ForeignWords": [
+      "panikáriť",
+      "zmätok"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "futile",
+    "ForeignWords": [
+      "márne"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "gaiety",
+    "ForeignWords": [
+      "veselosť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "gallop",
+    "ForeignWords": [
+      "cval",
+      "hnať sa"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "gargle",
+    "ForeignWords": [
+      "kloktanie"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "garment",
+    "ForeignWords": [
+      "odev"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "garrulous",
+    "ForeignWords": [
+      "hádavy"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "gather",
+    "ForeignWords": [
+      "zhromaždiť",
+      "získať"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "gaudily",
+    "ForeignWords": [
+      "krikľavo"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "gauge",
+    "ForeignWords": [
+      "meradlo"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "georgeous",
+    "ForeignWords": [
+      "veľmi krásny"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "giddy up",
+    "ForeignWords": [
+      "krútiť hlavou"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "giddy",
+    "ForeignWords": [
+      "závratny"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "gig",
+    "ForeignWords": [
+      "koncert"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "gingerly",
+    "ForeignWords": [
+      "opatrne"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "glare",
+    "ForeignWords": [
+      "zazerať",
+      "zlostný pohľad"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "gloom",
+    "ForeignWords": [
+      "šero"
+    ],
+    "Score": 4
+  },
+  {
+    "DomesticWord": "gossip",
+    "ForeignWords": [
+      "klebety"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "great",
+    "ForeignWords": [
+      "veľmi dobrý"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "grief",
+    "ForeignWords": [
+      "smútok"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "groomed",
+    "ForeignWords": [
+      "upravený"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "grope",
+    "ForeignWords": [
+      "tápať"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "grubbiness",
+    "ForeignWords": [
+      "špinavosť"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "grudge",
+    "ForeignWords": [
+      "zášť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "gulped",
+    "ForeignWords": [
+      "prehltol"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "gutter",
+    "ForeignWords": [
+      "žľab"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "halt",
+    "ForeignWords": [
+      "zastaviť"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "harnessing",
+    "ForeignWords": [
+      "využitie"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "harsh",
+    "ForeignWords": [
+      "drsný"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "hastily",
+    "ForeignWords": [
+      "narýchlo"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "haul",
+    "ForeignWords": [
+      "záťah"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "hedge",
+    "ForeignWords": [
+      "živý plot"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "hence",
+    "ForeignWords": [
+      "teda"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "hereditary",
+    "ForeignWords": [
+      "dedičné"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "hesitation",
+    "ForeignWords": [
+      "váhanie"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "hick",
+    "ForeignWords": [
+      "cucflek"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "hilarious",
+    "ForeignWords": [
+      "veľmi vtipný"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "hinges",
+    "ForeignWords": [
+      "pánty"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "hips",
+    "ForeignWords": [
+      "boky"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "hip",
+    "ForeignWords": [
+      "bedro"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "hitch",
+    "ForeignWords": [
+      "ťažné zariadenie",
+      "prekážka"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "hog",
+    "ForeignWords": [
+      "prasa"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "hone",
+    "ForeignWords": [
+      "vybrúsiť",
+      "zdokonaliť"
+    ],
+    "Score": 4
+  },
+  {
+    "DomesticWord": "hose",
+    "ForeignWords": [
+      "hadica"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "hover",
+    "ForeignWords": [
+      "vznášať sa"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "howl",
+    "ForeignWords": [
+      "zavýjať"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "hue",
+    "ForeignWords": [
+      "odtieň"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "humidity",
+    "ForeignWords": [
+      "vlhkosť"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "hung up",
+    "ForeignWords": [
+      "zavesil"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "icy",
+    "ForeignWords": [
+      "ľadový"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "ignite",
+    "ForeignWords": [
+      "zapáliť"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "ignition",
+    "ForeignWords": [
+      "zapálenie"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "impudent",
+    "ForeignWords": [
+      "drzý"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "in spite",
+    "ForeignWords": [
+      "napriek"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "incessantly",
+    "ForeignWords": [
+      "neustále"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "incomprehensible",
+    "ForeignWords": [
+      "nepochopiteľný"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "inconspicious",
+    "ForeignWords": [
+      "nenápadný"
+    ],
+    "Score": 3
+  },
+  {
+    "DomesticWord": "incredulous",
+    "ForeignWords": [
+      "neveriaci"
+    ],
+    "Score": 4
+  },
+  {
+    "DomesticWord": "incurable",
+    "ForeignWords": [
+      "nevyliečiteľná"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "indecipherable",
+    "ForeignWords": [
+      "nerozlúštiteľný"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "indentations",
+    "ForeignWords": [
+      "priehlbiny"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "indigenous",
+    "ForeignWords": [
+      "domorodý"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "indiscernible",
+    "ForeignWords": [
+      "nerozoznaťeľný"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "indulgence",
+    "ForeignWords": [
+      "zhovievavosť"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "inheritance",
+    "ForeignWords": [
+      "dedičstvo"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "inn",
+    "ForeignWords": [
+      "hostinec"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "inquiring",
+    "ForeignWords": [
+      "pýtajúc sa"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "inquisitive",
+    "ForeignWords": [
+      "zvedavý"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "insult",
+    "ForeignWords": [
+      "urážka"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "interfere",
+    "ForeignWords": [
+      "zasahovať"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "interminable",
+    "ForeignWords": [
+      "nekonečný"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "interrogation",
+    "ForeignWords": [
+      "výsluch"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "intimidation",
+    "ForeignWords": [
+      "zastrašovanie"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "intrusive",
+    "ForeignWords": [
+      "dotieravý"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "inward",
+    "ForeignWords": [
+      "dovnútra"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "iris",
+    "ForeignWords": [
+      "dúhovka"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "irritable",
+    "ForeignWords": [
+      "podráždený"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "jammed",
+    "ForeignWords": [
+      "zaseknutý"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "jar",
+    "ForeignWords": [
+      "pohár"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "jaunity",
+    "ForeignWords": [
+      "veselo"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "jaw",
+    "ForeignWords": [
+      "čeľusť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "jiffy",
+    "ForeignWords": [
+      "chvíľa"
+    ],
+    "Score": 4
+  },
+  {
+    "DomesticWord": "junkie",
+    "ForeignWords": [
+      "feťák"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "justify",
+    "ForeignWords": [
+      "odôvodniť"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "laden",
+    "ForeignWords": [
+      "zaťažený",
+      "naložený"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "laundry hamber",
+    "ForeignWords": [
+      "kôš na bielizeň"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "lean",
+    "ForeignWords": [
+      "nakláňať sa"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "leaped",
+    "ForeignWords": [
+      "vyskočil"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "leap",
+    "ForeignWords": [
+      "skok"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "leastways (until)",
+    "ForeignWords": [
+      "aspoň nie (pokiaľ)"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "lens",
+    "ForeignWords": [
+      "šošovka"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "lightnes",
+    "ForeignWords": [
+      "jas"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "linger",
+    "ForeignWords": [
+      "pretrvávať"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "livid",
+    "ForeignWords": [
+      "rozpáleny"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "longed",
+    "ForeignWords": [
+      "túžil"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "longings",
+    "ForeignWords": [
+      "túžby"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "loose",
+    "ForeignWords": [
+      "voľný"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "luminosity",
+    "ForeignWords": [
+      "svietivosť"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "macula",
+    "ForeignWords": [
+      "makula"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "maintain",
+    "ForeignWords": [
+      "udržovať",
+      "trvať"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "malevolent",
+    "ForeignWords": [
+      "zlomyseľný"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "manliness",
+    "ForeignWords": [
+      "mužnosť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "mantelpiece",
+    "ForeignWords": [
+      "krbová rímsa"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "marble",
+    "ForeignWords": [
+      "mramor"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "massive",
+    "ForeignWords": [
+      "veľmi veľký"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "mattress",
+    "ForeignWords": [
+      "matrac"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "meedling",
+    "ForeignWords": [
+      "zasahovanie"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "meekly",
+    "ForeignWords": [
+      "pokorne"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "menace",
+    "ForeignWords": [
+      "hrozba"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "mend",
+    "ForeignWords": [
+      "opraviť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "merely",
+    "ForeignWords": [
+      "iba"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "mere",
+    "ForeignWords": [
+      "obyčajne"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "mild",
+    "ForeignWords": [
+      "mierny"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "minor",
+    "ForeignWords": [
+      "maloletý"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "misconceptions",
+    "ForeignWords": [
+      "mylné predstavy"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "misdemeanor",
+    "ForeignWords": [
+      "priestupok"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "miserable",
+    "ForeignWords": [
+      "mizerné"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "moats",
+    "ForeignWords": [
+      "priekopy"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "modest",
+    "ForeignWords": [
+      "skromný"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "moody",
+    "ForeignWords": [
+      "náladový"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "moreover",
+    "ForeignWords": [
+      "navyše"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "mortifying",
+    "ForeignWords": [
+      "ponižujúce"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "mosque",
+    "ForeignWords": [
+      "mešita"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "multitudes",
+    "ForeignWords": [
+      "zástupy"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "mutilate",
+    "ForeignWords": [
+      "zmrzačiť"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "nagging",
+    "ForeignWords": [
+      "otravovanie"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "narrow",
+    "ForeignWords": [
+      "úzky"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "nauseate",
+    "ForeignWords": [
+      "spôsobiť nevoľnosti"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "nause",
+    "ForeignWords": [
+      "žalúdočna nevoľnosť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "nebula",
+    "ForeignWords": [
+      "hmlovina"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "nebulous",
+    "ForeignWords": [
+      "hmlovitý"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "neglect",
+    "ForeignWords": [
+      "zanedbávať"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "nest",
+    "ForeignWords": [
+      "hniezdo"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "neverthless",
+    "ForeignWords": [
+      "napriek tomu"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "nimble",
+    "ForeignWords": [
+      "svižný"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "nocturnal",
+    "ForeignWords": [
+      "nočné"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "noose",
+    "ForeignWords": [
+      "slučka"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "notoriety",
+    "ForeignWords": [
+      "známosť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "noun",
+    "ForeignWords": [
+      "podstatné meno"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "numb",
+    "ForeignWords": [
+      "otupený"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "nurture",
+    "ForeignWords": [
+      "vychovávať"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "oath",
+    "ForeignWords": [
+      "prísaha"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "obedient",
+    "ForeignWords": [
+      "poslušný"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "obey",
+    "ForeignWords": [
+      "poslúchnuť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "obligatory",
+    "ForeignWords": [
+      "povinný"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "obliged",
+    "ForeignWords": [
+      "povinný"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "obliquely",
+    "ForeignWords": [
+      "šikmo"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "obscurely",
+    "ForeignWords": [
+      "nejasne"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "odour",
+    "ForeignWords": [
+      "zápach"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "omen",
+    "ForeignWords": [
+      "znamenie"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "omitting",
+    "ForeignWords": [
+      "vynechávanie"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "omit",
+    "ForeignWords": [
+      "vynechať"
+    ],
+    "Score": 3
+  },
+  {
+    "DomesticWord": "on my cue",
+    "ForeignWords": [
+      "na môj povel"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "oppressivness",
+    "ForeignWords": [
+      "útlak"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "orgiastic",
+    "ForeignWords": [
+      "šialene vzrušujúce"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "pace",
+    "ForeignWords": [
+      "tempo"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "palliation",
+    "ForeignWords": [
+      "zmiernenie"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "palm",
+    "ForeignWords": [
+      "dlaň"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "pantry",
+    "ForeignWords": [
+      "špajza"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "parallel",
+    "ForeignWords": [
+      "rovnobežka"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "pavement",
+    "ForeignWords": [
+      "chodník",
+      "vozovka"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "peculair",
+    "ForeignWords": [
+      "zvláštny"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "peered",
+    "ForeignWords": [
+      "pokukoval"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "peninsula",
+    "ForeignWords": [
+      "poloostrov"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "perception",
+    "ForeignWords": [
+      "vnímanie"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "perforate",
+    "ForeignWords": [
+      "perforovať (dierkovať)"
+    ],
+    "Score": 3
+  },
+  {
+    "DomesticWord": "peril",
+    "ForeignWords": [
+      "riziko"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "perishable",
+    "ForeignWords": [
+      "podliehajúce skaze"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "perpetrated",
+    "ForeignWords": [
+      "spáchany"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "perplexed",
+    "ForeignWords": [
+      "veľmi zmätený"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "perplexity",
+    "ForeignWords": [
+      "zmätok"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "persecution",
+    "ForeignWords": [
+      "prenasledovanie"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "perseve",
+    "ForeignWords": [
+      "vytrvať"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "persist",
+    "ForeignWords": [
+      "trvať"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "perspire",
+    "ForeignWords": [
+      "potiť sa"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "pervade",
+    "ForeignWords": [
+      "preniknúť"
+    ],
+    "Score": 3
+  },
+  {
+    "DomesticWord": "pester",
+    "ForeignWords": [
+      "otravovať"
+    ],
+    "Score": 3
+  },
+  {
+    "DomesticWord": "petals",
+    "ForeignWords": [
+      "okvetné lístky"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "petite",
+    "ForeignWords": [
+      "veľmi malý"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "pile",
+    "ForeignWords": [
+      "hromada"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "pilgrimage",
+    "ForeignWords": [
+      "púť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "piste",
+    "ForeignWords": [
+      "zjazdovka"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "pitcher",
+    "ForeignWords": [
+      "džbán"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "pitchfork",
+    "ForeignWords": [
+      "vidly"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "pleasure",
+    "ForeignWords": [
+      "potešenie"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "plea",
+    "ForeignWords": [
+      "prosba"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "plot",
+    "ForeignWords": [
+      "zápletka",
+      "sprisahanie"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "plunge",
+    "ForeignWords": [
+      "skočiť (do vody)",
+      "vraziť"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "politely",
+    "ForeignWords": [
+      "zdvorilo"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "pondering",
+    "ForeignWords": [
+      "uvažovanie"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "porch",
+    "ForeignWords": [
+      "veranda"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "possessions",
+    "ForeignWords": [
+      "majetok"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "pound",
+    "ForeignWords": [
+      "biť",
+      "udierať"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "predicament",
+    "ForeignWords": [
+      "ťažká situácia"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "prerogative",
+    "ForeignWords": [
+      "výsada",
+      "privilégium"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "probate",
+    "ForeignWords": [
+      "dedičstvo"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "probe",
+    "ForeignWords": [
+      "sonda"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "procur",
+    "ForeignWords": [
+      "obstarávať"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "proficiency",
+    "ForeignWords": [
+      "odbornosť"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "prone",
+    "ForeignWords": [
+      "náchylny"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "propose",
+    "ForeignWords": [
+      "navrhovať"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "prosecutor",
+    "ForeignWords": [
+      "prokurátor"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "prowess",
+    "ForeignWords": [
+      "udatnosť",
+      "majstrovstvo"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "pulpit",
+    "ForeignWords": [
+      "kazateľnica"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "pupil",
+    "ForeignWords": [
+      "zrenica",
+      "žiak"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "pyramid",
+    "ForeignWords": [
+      "ihlan"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "quaint",
+    "ForeignWords": [
+      "kuriózne"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "quilt",
+    "ForeignWords": [
+      "paplón"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "radius",
+    "ForeignWords": [
+      "polomer"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "railing",
+    "ForeignWords": [
+      "zábradlie"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "rake up",
+    "ForeignWords": [
+      "zhrabnúť"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "rake",
+    "ForeignWords": [
+      "hrabať (akože ti hrabe)"
+    ],
+    "Score": 4
+  },
+  {
+    "DomesticWord": "rapid",
+    "ForeignWords": [
+      "veľmi rýchli"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "recedes",
+    "ForeignWords": [
+      "ustupuje"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "recess",
+    "ForeignWords": [
+      "prestávka"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "reckon",
+    "ForeignWords": [
+      "rátať",
+      "myslieť si"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "refer",
+    "ForeignWords": [
+      "odkazovať"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "regain",
+    "ForeignWords": [
+      "znovu získať"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "regarding",
+    "ForeignWords": [
+      "týkajúci sa"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "regardless",
+    "ForeignWords": [
+      "bez ohľadu na to"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "relieve",
+    "ForeignWords": [
+      "uľaviť"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "reluctance",
+    "ForeignWords": [
+      "neochota"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "reluctant",
+    "ForeignWords": [
+      "neochotný"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "rely",
+    "ForeignWords": [
+      "spoliehať sa",
+      "byť závysli (od koho/čoho)"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "remain",
+    "ForeignWords": [
+      "zostať"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "remedy",
+    "ForeignWords": [
+      "liek",
+      " náprava"
+    ],
+    "Score": 4
+  },
+  {
+    "DomesticWord": "remorse",
+    "ForeignWords": [
+      "výčitky svedomia"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "repent",
+    "ForeignWords": [
+      "činiť pokánie"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "reprimand",
+    "ForeignWords": [
+      "napomenutie"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "resemblance",
+    "ForeignWords": [
+      "podobnosť"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "resentement",
+    "ForeignWords": [
+      "zášť"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "restrain",
+    "ForeignWords": [
+      "prekážať",
+      "držať pod kontrolou"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "retina",
+    "ForeignWords": [
+      "sietnica"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "ridiculous",
+    "ForeignWords": [
+      "absurdné"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "rigid",
+    "ForeignWords": [
+      "tuhý"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "rinsed",
+    "ForeignWords": [
+      "opláchnuť"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "ripe",
+    "ForeignWords": [
+      "zrelý"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "ripple",
+    "ForeignWords": [
+      "vlnenie"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "rock him",
+    "ForeignWords": [
+      "rozkolísať ho"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "rudiments",
+    "ForeignWords": [
+      "základy"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "ruefully",
+    "ForeignWords": [
+      "žiaľ",
+      "žalostne"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "ruthless",
+    "ForeignWords": [
+      "bezohľadný"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "sassiest",
+    "ForeignWords": [
+      "najchytrejší"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "saturation",
+    "ForeignWords": [
+      "sýtosť"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "scar",
+    "ForeignWords": [
+      "jazva"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "sclera",
+    "ForeignWords": [
+      "skléra"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "scornful",
+    "ForeignWords": [
+      "pohŕdavý"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "scratching",
+    "ForeignWords": [
+      "škrabanie"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "seldom",
+    "ForeignWords": [
+      "málokedy"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "self-conscious",
+    "ForeignWords": [
+      "sebavedomý"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "sequin",
+    "ForeignWords": [
+      "flitra"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "serendipitous",
+    "ForeignWords": [
+      "náhodny"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "shambles",
+    "ForeignWords": [
+      "troskách"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "shawl",
+    "ForeignWords": [
+      "šál"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "shiver",
+    "ForeignWords": [
+      "triasť sa"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "shoot no wonder",
+    "ForeignWords": [
+      "niet divu"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "shrubbery",
+    "ForeignWords": [
+      "krovinatý porast"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "shuddered",
+    "ForeignWords": [
+      "striaslo sa"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "shutters",
+    "ForeignWords": [
+      "okenice"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "shutter",
+    "ForeignWords": [
+      "uzávierka"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "sill",
+    "ForeignWords": [
+      "parapet"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "sincerity",
+    "ForeignWords": [
+      "úprimnosť"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "sipping",
+    "ForeignWords": [
+      "popíjanie"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "sluggish",
+    "ForeignWords": [
+      "pomalý",
+      "lenivý"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "slushy",
+    "ForeignWords": [
+      "kašovitý"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "sneere",
+    "ForeignWords": [
+      "posmievať sa"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "snug",
+    "ForeignWords": [
+      "útulný",
+      "pohodlný"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "sober",
+    "ForeignWords": [
+      "triezvy"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "soggy",
+    "ForeignWords": [
+      "mokrý"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "sojourn",
+    "ForeignWords": [
+      "pobyt"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "solely",
+    "ForeignWords": [
+      "výlučne"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "solemn",
+    "ForeignWords": [
+      "slávnostne"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "solid",
+    "ForeignWords": [
+      "pevný",
+      "tuhý"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "sorcery",
+    "ForeignWords": [
+      "čarodejníctvo"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "sore",
+    "ForeignWords": [
+      "boľavý"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "sought",
+    "ForeignWords": [
+      "hľadal"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "spat",
+    "ForeignWords": [
+      "odpľul"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "speck",
+    "ForeignWords": [
+      "škvrna"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "spewing",
+    "ForeignWords": [
+      "chrĺiť"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "sphere",
+    "ForeignWords": [
+      "guľa"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "spotless",
+    "ForeignWords": [
+      "veľmi čistý"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "squared",
+    "ForeignWords": [
+      "umocnené"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "squinting",
+    "ForeignWords": [
+      "škúlenie"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "starving",
+    "ForeignWords": [
+      "veľmi hladný"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "stencil",
+    "ForeignWords": [
+      "šablóna"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "sternly",
+    "ForeignWords": [
+      "prísne"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "sternness",
+    "ForeignWords": [
+      "prísnosť"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "stillness",
+    "ForeignWords": [
+      "ticho"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "stinginess",
+    "ForeignWords": [
+      "lakomosť"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "stir",
+    "ForeignWords": [
+      "miešať"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "stork",
+    "ForeignWords": [
+      "bocian"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "stove up",
+    "ForeignWords": [
+      "piecť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "stove",
+    "ForeignWords": [
+      "sporák"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "strain",
+    "ForeignWords": [
+      "námaha",
+      "kmeň"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "strata",
+    "ForeignWords": [
+      "vrstvy"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "stroll",
+    "ForeignWords": [
+      "prechádzka"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "stubborn",
+    "ForeignWords": [
+      "tvrdohlavý"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "subjected",
+    "ForeignWords": [
+      "podrobený"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "subtlety",
+    "ForeignWords": [
+      "jemnosť"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "subtraction",
+    "ForeignWords": [
+      "odčítanie"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "suffocate",
+    "ForeignWords": [
+      "udusiť"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "suing",
+    "ForeignWords": [
+      "žalovať"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "summoned",
+    "ForeignWords": [
+      "predvolaný"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "superficial",
+    "ForeignWords": [
+      "povrchný"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "supper",
+    "ForeignWords": [
+      "večera"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "surmise",
+    "ForeignWords": [
+      "predpokladať"
+    ],
+    "Score": 4
+  },
+  {
+    "DomesticWord": "surrogacy",
+    "ForeignWords": [
+      "náhradne materstvo"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "suspenful",
+    "ForeignWords": [
+      "napínave"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "sustained",
+    "ForeignWords": [
+      "trvalo"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "sustain",
+    "ForeignWords": [
+      "udržať"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "sweat",
+    "ForeignWords": [
+      "pot"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "syringe",
+    "ForeignWords": [
+      "striekačka"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "taciturn",
+    "ForeignWords": [
+      "mlčanlivý"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "tacit",
+    "ForeignWords": [
+      "tichý"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "tangent",
+    "ForeignWords": [
+      "dotyčnica"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "tangle",
+    "ForeignWords": [
+      "zamotať",
+      "spleť"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "tan",
+    "ForeignWords": [
+      "opálenie"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "tartly",
+    "ForeignWords": [
+      "štipľavo"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "tattletale",
+    "ForeignWords": [
+      "rozprávka"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "teemed",
+    "ForeignWords": [
+      "hemžilo sa"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "teeter",
+    "ForeignWords": [
+      "balansovať",
+      "potácať sa"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "temerity",
+    "ForeignWords": [
+      "drzosť"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "tempted",
+    "ForeignWords": [
+      "v pokušení"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "tense",
+    "ForeignWords": [
+      "napätý"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "tension",
+    "ForeignWords": [
+      "napätie"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "terrifies",
+    "ForeignWords": [
+      "veľmi vyľakaný"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "testimony",
+    "ForeignWords": [
+      "svedectvo"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "the meanest",
+    "ForeignWords": [
+      "najpodlejší"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "thence",
+    "ForeignWords": [
+      "odtiaľ"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "thereafter",
+    "ForeignWords": [
+      "potom"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "thereby",
+    "ForeignWords": [
+      "tým"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "thesis",
+    "ForeignWords": [
+      "diplomová práca"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "thrive",
+    "ForeignWords": [
+      "prosperovať"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "thumb",
+    "ForeignWords": [
+      "palec"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "thump",
+    "ForeignWords": [
+      "buchnutie"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "thus",
+    "ForeignWords": [
+      "teda"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "timeless",
+    "ForeignWords": [
+      "nadčasový"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "tinfoil",
+    "ForeignWords": [
+      "alobal"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "tinsel",
+    "ForeignWords": [
+      "pozlátko"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "tore",
+    "ForeignWords": [
+      "roztrhol"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "torment",
+    "ForeignWords": [
+      "trápenie"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "torso",
+    "ForeignWords": [
+      "trup"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "total",
+    "ForeignWords": [
+      "výsledok"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "tousled",
+    "ForeignWords": [
+      "strapatý"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "tremble",
+    "ForeignWords": [
+      "triasť sa"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "trembling",
+    "ForeignWords": [
+      "chvenie"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "tresholding",
+    "ForeignWords": [
+      "prahovanie"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "tribe",
+    "ForeignWords": [
+      "kmeň"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "tripped",
+    "ForeignWords": [
+      "zakopla"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "tugged",
+    "ForeignWords": [
+      "potiahol"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "twirling",
+    "ForeignWords": [
+      "krútiaci"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "twitched",
+    "ForeignWords": [
+      "trhlo sa"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "ubiquitous",
+    "ForeignWords": [
+      "všadeprítomný"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "umbrage",
+    "ForeignWords": [
+      "znechutiť"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "unambiguous",
+    "ForeignWords": [
+      "jednoznačne"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "undergraduating",
+    "ForeignWords": [
+      "vysokoškolák"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "unfathomable",
+    "ForeignWords": [
+      "nevyspytateľný"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "unlatched",
+    "ForeignWords": [
+      "odblokovaný"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "unmitigated",
+    "ForeignWords": [
+      "nezmiernený"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "unutterable",
+    "ForeignWords": [
+      "nevysloviteľný"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "unwillingly",
+    "ForeignWords": [
+      "neochotne"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "upright",
+    "ForeignWords": [
+      "vzpriamený"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "urinal",
+    "ForeignWords": [
+      "pisoár"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "utterly",
+    "ForeignWords": [
+      "absolútne"
+    ],
+    "Score": 7
+  },
+  {
+    "DomesticWord": "utter",
+    "ForeignWords": [
+      "vysloviť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "value",
+    "ForeignWords": [
+      "hodnota",
+      "svetlosť"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "velvet",
+    "ForeignWords": [
+      "zamat"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "venerable",
+    "ForeignWords": [
+      "ctihodný"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "vengeance",
+    "ForeignWords": [
+      "pomsta"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "versatility",
+    "ForeignWords": [
+      "všestrannosť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "vexation",
+    "ForeignWords": [
+      "rozhorčenie"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "vicious",
+    "ForeignWords": [
+      "zhubný"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "vitreous",
+    "ForeignWords": [
+      "sklovec"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "vivid",
+    "ForeignWords": [
+      "živý"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "volition",
+    "ForeignWords": [
+      "vôľa"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "volume (math)",
+    "ForeignWords": [
+      "obsah"
+    ],
+    "Score": 4
+  },
+  {
+    "DomesticWord": "waistline",
+    "ForeignWords": [
+      "pás"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "wakefulness",
+    "ForeignWords": [
+      "bdelosť"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "wandering",
+    "ForeignWords": [
+      "putovanie"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "warily",
+    "ForeignWords": [
+      "ostražito"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "washstand",
+    "ForeignWords": [
+      "umývadlo"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "watchful",
+    "ForeignWords": [
+      "bdelý"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "wax cragon",
+    "ForeignWords": [
+      "voskovka"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "wealthy",
+    "ForeignWords": [
+      "veľmi bohatý"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "wedge",
+    "ForeignWords": [
+      "zaklíniť",
+      "klin"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "weep",
+    "ForeignWords": [
+      "plakať"
+    ],
+    "Score": 5
+  },
+  {
+    "DomesticWord": "wielding",
+    "ForeignWords": [
+      "ovládať"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "wig",
+    "ForeignWords": [
+      "parochňa"
+    ],
+    "Score": 4
+  },
+  {
+    "DomesticWord": "will",
+    "ForeignWords": [
+      "vôľa"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "winking",
+    "ForeignWords": [
+      "žmurkanie"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "wittedness",
+    "ForeignWords": [
+      "svedectvo"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "wonder",
+    "ForeignWords": [
+      "údiv"
+    ],
+    "Score": 8
+  },
+  {
+    "DomesticWord": "worship",
+    "ForeignWords": [
+      "uctievanie"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "wrap",
+    "ForeignWords": [
+      "zabal",
+      "obal"
+    ],
+    "Score": 9
+  },
+  {
+    "DomesticWord": "wrathful",
+    "ForeignWords": [
+      "hnevlivý"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "tiny",
+    "ForeignWords": [
+      "veľmi malý"
+    ],
+    "Score": 4
+  },
+  {
+    "DomesticWord": "perimeter",
+    "ForeignWords": [
+      "obvod"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "awesome",
+    "ForeignWords": [
+      "veľmi dobrý"
+    ],
+    "Score": 6
+  },
+  {
+    "DomesticWord": "excellent",
+    "ForeignWords": [
+      "veľmi dobrý"
+    ],
+    "Score": 4
+  },
+  {
+    "DomesticWord": "indentation",
+    "ForeignWords": [
+      "odsadenie"
+    ],
+    "Score": 2
+  },
+  {
+    "DomesticWord": "convinient",
+    "ForeignWords": [
+      "pohodlný"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "mandatory",
+    "ForeignWords": [
+      "povinné"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "reliability",
+    "ForeignWords": [
+      "spoľahlivosť"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "count",
+    "ForeignWords": [
+      "počet"
+    ],
+    "Score": 1
+  },
+  {
+    "DomesticWord": "abide",
+    "ForeignWords": [
+      "dodržať"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "eavesdrop",
+    "ForeignWords": [
+      "odpočúvať"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "extensive",
+    "ForeignWords": [
+      "rozsiahle"
+    ],
+    "Score": 0
+  },
+  {
+    "DomesticWord": "seamless",
+    "ForeignWords": [
+      "bezproblémový"
+    ],
+    "Score": 0
+  }
+]

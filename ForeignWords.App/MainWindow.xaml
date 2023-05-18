@@ -4,10 +4,15 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ForeignWords.App"
+        xmlns:texts="clr-namespace:ForeignWords.App.Resources.Texts"
         xmlns:views="clr-namespace:ForeignWords.App.Views"
         xmlns:vms="clr-namespace:ForeignWords.App.ViewModels"
         mc:Ignorable="d"
-        Title="Learn Foreign Words!" Height="450" Width="800">
+        Height="450" 
+        Width="800"
+        Icon="\Resources\Images\icon.ico"
+        Title="{x:Static texts:TextResources.Title}"
+        Background="{StaticResource DefaultWindowBackgroundBrush}">
     <Grid>
         <Grid.Resources>
             <DataTemplate DataType="{x:Type vms:HomeViewModel}">

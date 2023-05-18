@@ -8,6 +8,7 @@ using System.Windows.Input;
 using ForeignWords.App.Commands;
 using ForeignWords.App.Models;
 using ForeignWords.App.Services;
+using ForeignWords.App.Resources.Texts;
 using ForeignWords.App.Stores;
 
 namespace ForeignWords.App.ViewModels;
@@ -19,8 +20,8 @@ public class ModifyWordViewModel : ViewModelBase
     private string _domesticWord = string.Empty;
     private List<string> _foreignWords = new();
 
-    public string Title { get; set; } = "Add New Word";
-    public string SaveUpdateButtonContent { get; set; } = "Save";
+    public string Title { get; set; } = ModifyWordResources.Header_New_Word_Content;
+    public string SaveUpdateButtonContent { get; set; } = ModifyWordResources.Save_Button_Content;
 
     public Translation Translation
     {
@@ -73,8 +74,8 @@ public class ModifyWordViewModel : ViewModelBase
     {
         if (translation is not null)
         {
-            Title = "Edit Word";
-            SaveUpdateButtonContent = "Update";
+            Title = ModifyWordResources.Header_Edit_Word_Content;
+            SaveUpdateButtonContent = ModifyWordResources.Update_Button_Content;
             IsAddingMode = false;
         }
         
