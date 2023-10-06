@@ -1,18 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Dynamic;
-using System.IO.Packaging;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Controls;
+﻿using System.Collections.Generic;
 using System.Windows.Input;
 using ForeignWords.App.Commands;
 using ForeignWords.App.Enums;
 using ForeignWords.App.Models;
 using ForeignWords.App.Services;
-using ForeignWords.App.Stores;
 
 namespace ForeignWords.App.ViewModels;
 
@@ -130,9 +121,9 @@ public class HomeViewModel : ViewModelBase
         WordsCount = _book.GetTranslationsCount();
 
         RandomWordCommand = new RandomWordCommand(this, _book);
-        KnowCommand = new IKnowCommand(this);
+        KnowCommand = new KnowCommand(this);
         DoNotKnowCommand = new IDoNotKnowCommand(this);
-        DidNotKnowCommand = new IDidNotKnowCommand(this);
+        DidNotKnowCommand = new DidNotKnowCommand(this);
         TranslationCommand = new TranslationCommand(this);
 
         AddNewWordCommand = new NavigateCommand(addNewWordNavigationService);
