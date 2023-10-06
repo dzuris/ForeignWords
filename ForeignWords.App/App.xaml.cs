@@ -19,12 +19,27 @@ public partial class App : Application
 {
     private readonly TranslationsBook _book;
     private readonly NavigationStore _navigationStore;
-    private const string FileName = "C:\\Users\\adamd\\source\\repos\\ForeignWords\\ForeignWords\\ForeignWords.App\\db.json";
+
+    private const string DirectoryName = "Learn_New_Words_DA98E5B5-43B0-417F-B063-BBC8025C6607";
+    private const string JsonFileName = "learn_new_words_appdata.json";
+    private readonly string _jsonFilePath;
 
     public App()
     {
         Thread.CurrentThread.CurrentCulture = new CultureInfo("sk");
         Thread.CurrentThread.CurrentUICulture = new CultureInfo("sk");
+
+        // Setting json initialization
+        var appFolder = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+        var dirPath = Path.Combine(appFolder, DirectoryName);
+
+        // Create directory if it doesn't exist
+        if (!Directory.Exists(dirPath))
+        {
+            Directory.CreateDirectory(dirPath);
+        }
+
+        _jsonFilePath = Path.Combine(dirPath, JsonFileName);
 
         _book = new TranslationsBook();
         LoadFileIntoBook(_book);
@@ -34,6 +49,9 @@ public partial class App : Application
 
     protected override void OnStartup(StartupEventArgs e)
     {
+        base.OnStartup(e);
+
+        // Setting home view
         _navigationStore.CurrentViewModel = CreateHomeViewModel();
 
         MainWindow = new MainWindow
@@ -41,15 +59,13 @@ public partial class App : Application
             DataContext = new MainViewModel(_navigationStore)
         };
         MainWindow.Show();
-
-        base.OnStartup(e);
     }
 
     protected override void OnExit(ExitEventArgs e)
     {
-        WriteTranslationsIntoFile(_book);
-
         base.OnExit(e);
+
+        WriteTranslationsIntoFile(_book);
     }
 
     private ModifyWordViewModel CreateAddNewWordViewModel()
@@ -71,9 +87,16 @@ public partial class App : Application
             _navigationStore, new NavigationService(_navigationStore, CreateWordsListViewModel));
     }
 
-    private static void LoadFileIntoBook(TranslationsBook book)
+    /// <summary>
+    /// The function serializes data from a JSON file
+    /// </summary>
+    /// <param name="book">Object destination</param>
+    private void LoadFileIntoBook(TranslationsBook book)
     {
-        var json = File.ReadAllText(FileName);
+        // Checks if json exists
+        if (!File.Exists(_jsonFilePath)) return;
+
+        var json = File.ReadAllText(_jsonFilePath);
         var allTranslations = JsonConvert.DeserializeObject<List<Translation>>(json);
 
         if (allTranslations is null)
@@ -87,8 +110,14 @@ public partial class App : Application
         }
     }
 
-    private static void WriteTranslationsIntoFile(TranslationsBook book)
+    /// <summary>
+    /// The function deserializes data into a JSON file
+    /// </summary>
+    /// <param name="book">Object source</param>
+    private void WriteTranslationsIntoFile(TranslationsBook book)
     {
-        File.WriteAllText(FileName, JsonConvert.SerializeObject(book.GetAllTranslations(), Formatting.Indented));
+        var content = JsonConvert.SerializeObject(book.GetAllTranslations(), Formatting.Indented);
+
+        File.WriteAllText(_jsonFilePath, content);
     }
 }
