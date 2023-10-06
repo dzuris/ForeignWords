@@ -136,22 +136,22 @@
     <value>Slovak</value>
   </data>
   <data name="I_Did_Know_Button_Content" xml:space="preserve">
-    <value>I didn't know</value>
+    <value>I didn't know (D)</value>
   </data>
   <data name="I_Do_Not_Know_Button_Content" xml:space="preserve">
-    <value>I don't know</value>
+    <value>I don't know (N)</value>
   </data>
   <data name="I_Know_Button_Content" xml:space="preserve">
-    <value>I know</value>
+    <value>I know (K)</value>
   </data>
   <data name="Random_Word_Button_Content" xml:space="preserve">
-    <value>Random Word</value>
+    <value>Random Word (R)</value>
   </data>
   <data name="Refresh_Button_Content" xml:space="preserve">
     <value>Refresh</value>
   </data>
   <data name="Translation_Button_Content" xml:space="preserve">
-    <value>Transaltion</value>
+    <value>Transaltion (T)</value>
   </data>
   <data name="Words_Count_Label" xml:space="preserve">
     <value>Words:</value>

@@ -115,7 +115,7 @@ namespace ForeignWords.App.Resources.Texts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to I didn&apos;t know.
+        ///   Looks up a localized string similar to I didn&apos;t know (D).
         /// </summary>
         public static string I_Did_Know_Button_Content {
             get {
@@ -124,7 +124,7 @@ namespace ForeignWords.App.Resources.Texts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to I don&apos;t know.
+        ///   Looks up a localized string similar to I don&apos;t know (N).
         /// </summary>
         public static string I_Do_Not_Know_Button_Content {
             get {
@@ -133,7 +133,7 @@ namespace ForeignWords.App.Resources.Texts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to I know.
+        ///   Looks up a localized string similar to I know (K).
         /// </summary>
         public static string I_Know_Button_Content {
             get {
@@ -142,7 +142,7 @@ namespace ForeignWords.App.Resources.Texts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Random Word.
+        ///   Looks up a localized string similar to Random Word (R).
         /// </summary>
         public static string Random_Word_Button_Content {
             get {
@@ -160,7 +160,7 @@ namespace ForeignWords.App.Resources.Texts {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Transaltion.
+        ///   Looks up a localized string similar to Transaltion (T).
         /// </summary>
         public static string Translation_Button_Content {
             get {

@@ -136,22 +136,22 @@
     <value>Slovensky</value>
   </data>
   <data name="I_Did_Know_Button_Content" xml:space="preserve">
-    <value>Nevedel som</value>
+    <value>Nevedel som (D)</value>
   </data>
   <data name="I_Do_Not_Know_Button_Content" xml:space="preserve">
-    <value>Neviem</value>
+    <value>Neviem (N)</value>
   </data>
   <data name="I_Know_Button_Content" xml:space="preserve">
-    <value>Viem</value>
+    <value>Viem (K)</value>
   </data>
   <data name="Random_Word_Button_Content" xml:space="preserve">
-    <value>Náhodné slovo</value>
+    <value>Náhodné slovo (R)</value>
   </data>
   <data name="Refresh_Button_Content" xml:space="preserve">
     <value>Obnoviť</value>
   </data>
   <data name="Translation_Button_Content" xml:space="preserve">
-    <value>Preklad</value>
+    <value>Preklad (T)</value>
   </data>
   <data name="Words_Count_Label" xml:space="preserve">
     <value>Počet slovíčok:</value>

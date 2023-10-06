@@ -1,28 +1,49 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using ForeignWords.App.ViewModels;
 
-namespace ForeignWords.App.Views
+namespace ForeignWords.App.Views;
+
+/// <summary>
+/// Interaction logic for HomeView.xaml
+/// </summary>
+public partial class HomeView
 {
-    /// <summary>
-    /// Interaction logic for HomeView.xaml
-    /// </summary>
-    public partial class HomeView : UserControl
+    public HomeView()
     {
-        public HomeView()
+        InitializeComponent();
+    }
+
+    private void HomeView_OnLoaded(object sender, RoutedEventArgs e)
+    {
+        var window = Window.GetWindow(this);
+
+        if (window is null) return;
+        
+        window.KeyDown += HandleKeyPress;
+    }
+
+    private void HandleKeyPress(object sender, KeyEventArgs e)
+    {
+        var vm = (HomeViewModel)DataContext;
+        switch (e.Key)
         {
-            InitializeComponent();
+            case Key.R:
+                vm.RandomWordCommand.Execute(null);
+                break;
+            case Key.T:
+                vm.TranslationCommand.Execute(null);
+                break;
+            case Key.D:
+                vm.DidNotKnowCommand.Execute(null);
+                break;
+            case Key.K:
+                vm.KnowCommand.Execute(null);
+                break;
+            case Key.N:
+                vm.DoNotKnowCommand.Execute(null);
+                break;
         }
     }
 }
