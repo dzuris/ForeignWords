@@ -1,5 +1,4 @@
-﻿using System;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Input;
 using ForeignWords.App.ViewModels;
 
@@ -27,6 +26,9 @@ public partial class HomeView
     private void HandleKeyPress(object sender, KeyEventArgs e)
     {
         var vm = (HomeViewModel)DataContext;
+
+        if (vm is null) return;
+
         switch (e.Key)
         {
             case Key.R:
