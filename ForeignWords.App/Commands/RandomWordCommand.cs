@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ForeignWords.App.Enums;
 using ForeignWords.App.Models;
 using ForeignWords.App.ViewModels;
@@ -35,6 +31,8 @@ namespace ForeignWords.App.Commands
 
         public override void Execute(object? parameter)
         {
+            if (!CanExecute(parameter)) return;
+
             _homeViewModel.Translation = _homeViewModel.AllNewPassedSelection switch
             {
                 0 => _book.GetRandomTranslation(),

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel;
 using ForeignWords.App.Enums;
 using ForeignWords.App.ViewModels;
 
@@ -28,6 +23,8 @@ namespace ForeignWords.App.Commands
 
         public override void Execute(object? parameter)
         {
+            if (!CanExecute(parameter)) return;
+
             if (_homeViewModel.Translation.Score > 0)
             {
                 _homeViewModel.Translation.Score -= 1;
