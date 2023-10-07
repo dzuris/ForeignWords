@@ -24,8 +24,6 @@ internal class KnowCommand : CommandBase
 
     public override void Execute(object? parameter)
     {
-        if (!CanExecute(parameter)) return;
-
         if (_homeViewModel.Translation.Score < MaxScore)
         {
             _homeViewModel.Translation.Score += 1;

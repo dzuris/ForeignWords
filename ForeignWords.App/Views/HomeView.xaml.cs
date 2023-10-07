@@ -32,19 +32,24 @@ public partial class HomeView
         switch (e.Key)
         {
             case Key.R:
-                vm.RandomWordCommand.Execute(null);
+                if (vm.RandomWordCommand.CanExecute(null))
+                    vm.RandomWordCommand.Execute(null);
                 break;
             case Key.T:
-                vm.TranslationCommand.Execute(null);
+                if (vm.TranslationCommand.CanExecute(null))
+                    vm.TranslationCommand.Execute(null);
                 break;
             case Key.D:
-                vm.DidNotKnowCommand.Execute(null);
-                break;
-            case Key.K:
-                vm.KnowCommand.Execute(null);
+                if (vm.DidNotKnowCommand.CanExecute(null))
+                    vm.DidNotKnowCommand.Execute(null);
                 break;
             case Key.N:
-                vm.DoNotKnowCommand.Execute(null);
+                if (vm.DoNotKnowCommand.CanExecute(null))
+                    vm.DoNotKnowCommand.Execute(null);
+                break;
+            case Key.K:
+                if (vm.KnowCommand.CanExecute(null))
+                    vm.KnowCommand.Execute(null);
                 break;
         }
     }

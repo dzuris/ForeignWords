@@ -23,8 +23,6 @@ namespace ForeignWords.App.Commands
 
         public override void Execute(object? parameter)
         {
-            if (!CanExecute(parameter)) return;
-
             _homeViewModel.Status = Status.TranslationStatus;
         }
 

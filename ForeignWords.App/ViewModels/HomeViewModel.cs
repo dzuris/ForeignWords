@@ -122,7 +122,7 @@ public class HomeViewModel : ViewModelBase
 
         RandomWordCommand = new RandomWordCommand(this, _book);
         KnowCommand = new KnowCommand(this);
-        DoNotKnowCommand = new IDoNotKnowCommand(this);
+        DoNotKnowCommand = new DoNotKnowCommand(this);
         DidNotKnowCommand = new DidNotKnowCommand(this);
         TranslationCommand = new TranslationCommand(this);
 

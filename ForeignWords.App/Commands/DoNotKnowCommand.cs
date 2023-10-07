@@ -4,11 +4,11 @@ using ForeignWords.App.ViewModels;
 
 namespace ForeignWords.App.Commands;
 
-internal class DidNotKnowCommand : CommandBase
+internal class DoNotKnowCommand : CommandBase
 {
     private readonly HomeViewModel _homeViewModel;
 
-    public DidNotKnowCommand(HomeViewModel homeViewModel)
+    public DoNotKnowCommand(HomeViewModel homeViewModel)
     {
         _homeViewModel = homeViewModel;
 
@@ -17,22 +17,18 @@ internal class DidNotKnowCommand : CommandBase
 
     public override bool CanExecute(object? parameter)
     {
-        return _homeViewModel.Status is Status.ResponseKnowStatus 
+        return _homeViewModel.Status is Status.RandomWordStatus or Status.TranslationStatus 
                && base.CanExecute(parameter);
     }
 
     public override void Execute(object? parameter)
     {
-        if (_homeViewModel.Translation.Score > 1)
+        if (_homeViewModel.Translation.Score > 0)
         {
-            _homeViewModel.Translation.Score -= 2;
-        }
-        else
-        {
-            _homeViewModel.Translation.Score = 0;
+            _homeViewModel.Translation.Score -= 1;
         }
 
-        _homeViewModel.Status = Status.ResponseDidNotKnowStatus;
+        _homeViewModel.Status = Status.ResponseDoNotKnowStatus;
         _homeViewModel.UpdateWordsCount();
     }
 

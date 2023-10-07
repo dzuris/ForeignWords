@@ -31,8 +31,6 @@ namespace ForeignWords.App.Commands
 
         public override void Execute(object? parameter)
         {
-            if (!CanExecute(parameter)) return;
-
             _homeViewModel.Translation = _homeViewModel.AllNewPassedSelection switch
             {
                 0 => _book.GetRandomTranslation(),
