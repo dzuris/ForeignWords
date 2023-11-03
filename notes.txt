@@ -1,0 +1,2 @@
+TODO:
+  New word transaltion wrap on multiple lines
